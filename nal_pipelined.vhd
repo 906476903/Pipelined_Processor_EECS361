@@ -1,4 +1,3 @@
-
 library ieee;
 use ieee.std_logic_1164.all;
 use work.eecs361.all;
@@ -8,7 +7,7 @@ entity NAL_pipelined is
 port(pc_in, instruction : in std_logic_vector (31 downto 0);
 busA, busB : in std_logic_vector (31 downto 0);
 pc_out: out std_logic_vector (31 downto 0);
-pc_init : in std_logic);
+pc_trigger, stall : in std_logic);
 end entity;
 
 
@@ -119,9 +118,6 @@ signal lower_op : std_logic_vector (2 downto 0);
 signal mux_out, mux_out1, mux_out2 : std_logic_vector(31 downto 0);
 signal zero, carryout, overflow : std_logic;
 signal bus_result : std_logic_vector ( 31 downto 0);
-signal counter_last, counter_out : std_logic_vector (31 downto 0);
-signal stall, stall_sel, stall_last : std_logic;
-signal carryout1, zero1 : std_logic;
 
 begin
 
@@ -182,7 +178,10 @@ branch <= instruction(28);
 
 C4: mux_32 port map(branch, pc_four, pc_out_temp, pc_out_temp1);
 
-C5: mux_32 port map(pc_init, pc_out_temp1, X"00400024", pc_out_temp2);
+C5: mux_32 port map(pc_trigger, pc_out_temp1, X"00400024", pc_out_temp2);
+
+
+C7: mux_32 port map(stall, pc_out_temp2, pc_in, pc_out);
 
 ------ add HW Stall logic, check if branch then delay by 3, check if load-r_type then delay by 1  -------
 ------ set pc_out to pc_in  for number of cycles necessary

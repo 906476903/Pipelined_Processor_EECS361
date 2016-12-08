@@ -23,9 +23,9 @@ V=OkFj8RPNHlZN7[5=m=hG3
 !s100 n9eob:=OLdZSklE4Hz2863
 Z8 OV;C;10.4b;61
 32
-Z9 !s110 1481162472
+Z9 !s110 1481224208
 !i10b 1
-Z10 !s108 1481162472.000000
+Z10 !s108 1481224208.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/alu32.vhd|
 Z12 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/alu32.vhd|
 !i113 1
@@ -150,9 +150,9 @@ VjSSX:ZTP6=7nLdoWcoj_63
 !s100 9zM?`;meNomBE;big9UG12
 R8
 32
-Z18 !s110 1481162466
+Z18 !s110 1481224202
 !i10b 1
-Z19 !s108 1481162466.000000
+Z19 !s108 1481224202.000000
 Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd|
 Z21 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd|
 !i113 1
@@ -300,8 +300,8 @@ R2
 R3
 R4
 R5
-Z34 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\cpu.vhd
-Z35 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\cpu.vhd
+Z34 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd
+Z35 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd
 l0
 L6
 V[QJ<RU6hH6oG5gLeW7M8e0
@@ -311,8 +311,8 @@ R8
 R9
 !i10b 1
 R10
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\cpu.vhd|
-Z37 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\cpu.vhd|
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd|
+Z37 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd|
 !i113 1
 R13
 R14
@@ -337,7 +337,7 @@ R37
 R13
 R14
 Ecpu_pipelined
-Z38 w1481174188
+Z38 w1481229600
 R1
 R2
 R3
@@ -347,13 +347,13 @@ Z39 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_
 Z40 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined.vhd
 l0
 L6
-VW`i]10C=dahD8SPKNH9N41
-!s100 <9@Z@M:90_NjgbQnN>8<U2
+V]@4lQ9FYoNOR`cD7m;V`z3
+!s100 `XoJBkbhUVUBc]b3=S;@50
 R8
 32
-Z41 !s110 1481174190
+Z41 !s110 1481229860
 !i10b 1
-Z42 !s108 1481174190.000000
+Z42 !s108 1481229860.000000
 Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined.vhd|
 Z44 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined.vhd|
 !i113 1
@@ -364,11 +364,11 @@ R1
 R2
 R3
 R4
-Z45 DEx4 work 13 cpu_pipelined 0 22 W`i]10C=dahD8SPKNH9N41
-l230
-L14
-VmE6CfT5Gd8jXT1PmQaX6X1
-!s100 FAjSYI>OIanWRYWH[8UUW0
+Z45 DEx4 work 13 cpu_pipelined 0 22 ]@4lQ9FYoNOR`cD7m;V`z3
+l254
+L16
+VCdY<o@CKg>Zo4IcOCT@<Q3
+!s100 P;JFUfEBQY5`G3b79@7J_1
 R8
 32
 R41
@@ -380,7 +380,7 @@ R44
 R13
 R14
 Ecpu_pipelined_tb
-Z46 w1481174026
+Z46 w1481228432
 R1
 R2
 R3
@@ -394,9 +394,9 @@ VXbJ@LhQk13l?z>QGa2>AM0
 !s100 ^7j=DRoiGKAXhYMdi4<E90
 R8
 32
-Z49 !s110 1481174028
+Z49 !s110 1481228436
 !i10b 1
-Z50 !s108 1481174028.000000
+Z50 !s108 1481228436.000000
 Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined_tb.vhd|
 Z52 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined_tb.vhd|
 !i113 1
@@ -408,10 +408,10 @@ R2
 R3
 R4
 DEx4 work 16 cpu_pipelined_tb 0 22 XbJ@LhQk13l?z>QGa2>AM0
-l26
+l27
 L11
-VbC;aVZURF5nO=7g?5RP241
-!s100 7Tj?25l58K_mP]1S[9OnR0
+V@ebW6_:eHF1ln0J4:jJgi2
+!s100 H<]Ch7k7;kSgWMFzclB`J0
 R8
 32
 R49
@@ -437,11 +437,11 @@ VlBa1gcZD?Hd>>dhaCZ:o72
 !s100 HVkO^_z26?ddnWh86BmO80
 R8
 32
-R9
+Z55 !s110 1481224209
 !i10b 1
-R10
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu_tb.vhd|
-Z56 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu_tb.vhd|
+Z56 !s108 1481224209.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu_tb.vhd|
+Z58 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu_tb.vhd|
 !i113 1
 R13
 R14
@@ -457,23 +457,23 @@ VMHD:TiR>BNK:G>5g^T>:d2
 !s100 ]LjHIHNLY52JH9eVo0mWG2
 R8
 32
-R9
-!i10b 1
-R10
 R55
+!i10b 1
 R56
+R57
+R58
 !i113 1
 R13
 R14
 Ecpu_tb_branch
-Z57 w1481144806
+Z59 w1481144806
 R1
 R2
 R3
 R4
 R5
-Z58 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd
-Z59 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd
+Z60 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd
+Z61 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd
 l0
 L8
 VXUGiBzRlYZjI<:WX?XIzZ3
@@ -483,8 +483,8 @@ R8
 R9
 !i10b 1
 R10
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd|
-Z61 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd|
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd|
+Z63 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd|
 !i113 1
 R13
 R14
@@ -503,8 +503,8 @@ R8
 R9
 !i10b 1
 R10
-R60
-R61
+R62
+R63
 !i113 1
 R13
 R14
@@ -515,19 +515,19 @@ R2
 R3
 R4
 R5
-Z62 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd
-Z63 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd
+Z64 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd
+Z65 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd
 l0
 L7
 VnzoWl8f0D9iRN^mE4;7MI0
 !s100 8W^T0`@bd<iA0jJlkTg7Z2
 R8
 32
-Z64 !s110 1481162476
+Z66 !s110 1481224212
 !i10b 1
-Z65 !s108 1481162476.000000
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd|
-Z67 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd|
+Z67 !s108 1481224212.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd|
+Z69 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd|
 !i113 1
 R13
 R14
@@ -543,11 +543,11 @@ VZXN?UQQ2V55YHg5n2Rkee3
 !s100 =50W1b@nX94]`afZ5S?TO3
 R8
 32
-R64
-!i10b 1
-R65
 R66
+!i10b 1
 R67
+R68
+R69
 !i113 1
 R13
 R14
@@ -558,19 +558,19 @@ R2
 R3
 R4
 R5
-Z68 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd
-Z69 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd
+Z70 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd
+Z71 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd
 l0
 L7
 VA2SUoE`GNXCB3MNJgh<Hk3
 !s100 kRNK>`=_dm1H9ZgX_5mAU2
 R8
 32
-R64
+Z72 !s110 1481224213
 !i10b 1
-R65
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd|
-Z71 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd|
+R67
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd|
+Z74 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd|
 !i113 1
 R13
 R14
@@ -586,11 +586,11 @@ VKE[`Rj5`L2oYZg:YaJTiU3
 !s100 035A1Q^SjRnSY:_<XdSdV2
 R8
 32
-R64
+R72
 !i10b 1
-R65
-R70
-R71
+R67
+R73
+R74
 !i113 1
 R13
 R14
@@ -601,19 +601,19 @@ R2
 R3
 R4
 R5
-Z72 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd
-Z73 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd
+Z75 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd
+Z76 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd
 l0
 L5
 VYcHi;nB]^_1]oZH^]z7:G2
 !s100 IeBOec0@0FTdF8fdQ>Z:63
 R8
 32
-Z74 !s110 1481162473
+R55
 !i10b 1
-Z75 !s108 1481162473.000000
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd|
-Z77 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd|
+R56
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd|
+Z78 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd|
 !i113 1
 R13
 R14
@@ -629,11 +629,11 @@ V]hbzOT<8;^dg@;d4RZTCe3
 !s100 iBK1Q?OGSe2>[mP1EC4<W2
 R8
 32
-R74
+R55
 !i10b 1
-R75
-R76
+R56
 R77
+R78
 !i113 1
 R13
 R14
@@ -642,19 +642,19 @@ R0
 R3
 R4
 R5
-Z78 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd
-Z79 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd
+Z79 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd
+Z80 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd
 l0
 L5
 V8^3:?XVNPdl5HlRBjeaEE1
 !s100 bQ398D8_X@H8nDm>L5g]L0
 R8
 32
-R74
+R55
 !i10b 1
-R75
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd|
-Z81 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd|
+R56
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd|
+Z82 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd|
 !i113 1
 R13
 R14
@@ -668,22 +668,22 @@ VS3<[O8WT2IF9JYb>R_Z<m0
 !s100 ?mWeelEV:[2QWkBL2lWGS0
 R8
 32
-R74
+R55
 !i10b 1
-R75
-R80
+R56
 R81
+R82
 !i113 1
 R13
 R14
 Edec_n
 R15
-Z82 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z83 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R3
 R4
 R5
-Z83 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd
-Z84 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd
+Z84 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd
+Z85 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd
 l0
 L5
 Vnef_k9UOEZ<T8U:5Z1:Be0
@@ -693,13 +693,13 @@ R8
 R18
 !i10b 1
 R19
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd|
-Z86 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd|
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd|
+Z87 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R82
+R83
 R3
 R4
 DEx4 work 5 dec_n 0 22 nef_k9UOEZ<T8U:5Z1:Be0
@@ -712,8 +712,8 @@ R8
 R18
 !i10b 1
 R19
-R85
 R86
+R87
 !i113 1
 R13
 R14
@@ -722,19 +722,19 @@ R0
 R3
 R4
 R5
-Z87 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd
-Z88 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd
+Z88 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd
+Z89 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd
 l0
 L5
 V65JjJne_=zLhPgJXP;Gc]3
 !s100 YfLUObAUCYlK>8f=_@_]N3
 R8
 32
-R74
+R55
 !i10b 1
-R75
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd|
-Z90 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd|
+R56
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd|
+Z91 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd|
 !i113 1
 R13
 R14
@@ -748,11 +748,11 @@ Vli^Tedao3@QY<oAPejge61
 !s100 CSinSKn_?4BoQe31;zfL52
 R8
 32
-R74
+R55
 !i10b 1
-R75
-R89
+R56
 R90
+R91
 !i113 1
 R13
 R14
@@ -761,8 +761,8 @@ R15
 R3
 R4
 R5
-Z91 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd
-Z92 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd
+Z92 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd
+Z93 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd
 l0
 L4
 VljQbVc[E3_H2oCkWNTkQ^0
@@ -772,8 +772,8 @@ R8
 R18
 !i10b 1
 R19
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd|
-Z94 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd|
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd|
+Z95 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd|
 !i113 1
 R13
 R14
@@ -790,8 +790,8 @@ R8
 R18
 !i10b 1
 R19
-R93
 R94
+R95
 !i113 1
 R13
 R14
@@ -800,8 +800,8 @@ R15
 R3
 R4
 R5
-Z95 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd
-Z96 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd
+Z96 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd
+Z97 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd
 l0
 L4
 VK6l>I=8iONE0V4k1bWBj91
@@ -811,8 +811,8 @@ R8
 R18
 !i10b 1
 R19
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd|
-Z98 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd|
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd|
+Z99 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd|
 !i113 1
 R13
 R14
@@ -829,8 +829,8 @@ R8
 R18
 !i10b 1
 R19
-R97
 R98
+R99
 !i113 1
 R13
 R14
@@ -839,8 +839,8 @@ R15
 R3
 R4
 R5
-Z99 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd
-Z100 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd
+Z100 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd
+Z101 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd
 l0
 L4
 V8e@;5Jf?LFO=@B<TMUSgc2
@@ -850,8 +850,8 @@ R8
 R18
 !i10b 1
 R19
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd|
-Z102 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd|
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd|
+Z103 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd|
 !i113 1
 R13
 R14
@@ -868,8 +868,8 @@ R8
 R18
 !i10b 1
 R19
-R101
 R102
+R103
 !i113 1
 R13
 R14
@@ -887,9 +887,9 @@ VT7Tg?VDE<XYfRDNQ@:<a_3
 !s100 8=Z1E6VmQF7PkYgUc4XzU2
 R8
 32
-Z103 !s110 1481162467
+Z104 !s110 1481224203
 !i10b 1
-Z104 !s108 1481162467.000000
+R19
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd|
 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd|
 !i113 1
@@ -908,9 +908,9 @@ V7FNUA4Rfl=amo47Rai7O53
 !s100 EFJF``Kkcd:<4LI@jVAPI3
 R8
 32
-R103
-!i10b 1
 R104
+!i10b 1
+Z105 !s108 1481224203.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361_gates.vhd|
 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361_gates.vhd|
 !i113 1
@@ -921,19 +921,19 @@ R0
 R3
 R4
 R5
-Z105 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd
-Z106 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd
+Z106 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd
+Z107 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd
 l0
 L4
 VCAG<@fcJfJGEI>P_[W]1d3
 !s100 3iFD4XR<6nnYg@3WdK^zP1
 R8
 32
-R74
+R55
 !i10b 1
-R75
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd|
-Z108 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd|
+R56
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd|
+Z109 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd|
 !i113 1
 R13
 R14
@@ -947,11 +947,11 @@ V63nKc<f[VZCMS;JA6WdH@0
 !s100 2TfjJbkXFWhM21ej27V4=0
 R8
 32
-R74
+R55
 !i10b 1
-R75
-R107
+R56
 R108
+R109
 !i113 1
 R13
 R14
@@ -960,19 +960,19 @@ R0
 R3
 R4
 R5
-Z109 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd
-Z110 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd
+Z110 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd
+Z111 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd
 l0
 L5
 VUHFI7IES7i8kGmGH_R_az3
 !s100 ?_;<zl2T6QWE?_DbkY6VM0
 R8
 32
-R74
+R55
 !i10b 1
-R75
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd|
-Z112 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd|
+R56
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd|
+Z113 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd|
 !i113 1
 R13
 R14
@@ -986,44 +986,44 @@ V]0bSVg0:iA>[537LJ]C>P2
 !s100 QR?]ChF_gAIbb4F^V<DLc1
 R8
 32
-R74
+R55
 !i10b 1
-R75
-R111
+R56
 R112
+R113
 !i113 1
 R13
 R14
 Efetch
 R0
-R82
-Z113 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-Z114 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z115 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R83
+Z114 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z115 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z116 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R3
 R4
 R5
-Z116 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd
-Z117 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd
+Z117 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd
+Z118 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd
 l0
 L12
 VE1zFaUZEcT:h1EL9hobf^0
 !s100 Q9GVogk1g:JV_o<on42lL1
 R8
 32
-R74
+Z119 !s110 1481224210
 !i10b 1
-R75
-Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd|
-Z119 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd|
+R56
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd|
+Z121 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd|
 !i113 1
 R13
 R14
 Astruct
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 DEx4 work 5 fetch 0 22 E1zFaUZEcT:h1EL9hobf^0
@@ -1033,44 +1033,44 @@ VY]:YfEG=nMje>:Za]iH2o3
 !s100 3z7afSiRVLb@S6>IzG`<>3
 R8
 32
-R74
-!i10b 1
-R75
-R118
 R119
+!i10b 1
+R56
+R120
+R121
 !i113 1
 R13
 R14
 Efetch_pipe
-Z120 w1481134350
-R82
-R113
+Z122 w1481134350
+R83
 R114
 R115
+R116
 R3
 R4
 R5
-Z121 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd
-Z122 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd
+Z123 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd
+Z124 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd
 l0
 L13
 VimlK<jXUnXP`eoMkeK?0L3
 !s100 >>18ZkL=[D[=N8[mV6ndb0
 R8
 32
-Z123 !s110 1481162470
+Z125 !s110 1481224206
 !i10b 1
-Z124 !s108 1481162470.000000
-Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd|
-Z126 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd|
+Z126 !s108 1481224206.000000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd|
+Z128 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd|
 !i113 1
 R13
 R14
 Astruct
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 DEx4 work 10 fetch_pipe 0 22 imlK<jXUnXP`eoMkeK?0L3
@@ -1080,44 +1080,44 @@ VYFL=11KlSJ;J9EHmC9ECb3
 !s100 B?oKZKAFh7AM:1^C7O?lL1
 R8
 32
-R123
-!i10b 1
-R124
 R125
+!i10b 1
 R126
+R127
+R128
 !i113 1
 R13
 R14
 Efetch_tb
 R0
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 R5
-Z127 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd
-Z128 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd
+Z129 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd
+Z130 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd
 l0
 L8
 V?nGhA88^ddd1F4B^S7M`Q0
 !s100 7ng^3JWzUKfRS4<Qk?]:D2
 R8
 32
-Z129 !s110 1481162474
+R119
 !i10b 1
-Z130 !s108 1481162474.000000
-Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd|
-Z132 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd|
+Z131 !s108 1481224210.000000
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd|
+Z133 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd|
 !i113 1
 R13
 R14
 Abehav
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 DEx4 work 8 fetch_tb 0 22 ?nGhA88^ddd1F4B^S7M`Q0
@@ -1127,34 +1127,34 @@ VVI;KTAgT0Obz8X5oZG6_g2
 !s100 3n4GYDLP8dnX>GNW>kUJU3
 R8
 32
-R129
+R119
 !i10b 1
-R130
 R131
 R132
+R133
 !i113 1
 R13
 R14
 Eforwarding_selector
-Z133 w1481171523
+Z134 w1481171523
 R1
 R2
 R3
 R4
 R5
-Z134 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd
-Z135 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd
+Z135 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd
+Z136 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd
 l0
 L6
 V4zHkVX;l9zQk@=EL=3o:k2
 !s100 23dC69_3WV`[X7X0[2G860
 R8
 32
-Z136 !s110 1481171560
+Z137 !s110 1481171560
 !i10b 1
-Z137 !s108 1481171560.000000
-Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd|
-Z139 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd|
+Z138 !s108 1481171560.000000
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd|
+Z140 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_selector.vhd|
 !i113 1
 R13
 R14
@@ -1170,34 +1170,34 @@ VS<Faf2Y_6e>c2dUR0CAMH0
 !s100 MM6Mh0e:3^0?D;K8RS96T0
 R8
 32
-R136
-!i10b 1
 R137
+!i10b 1
 R138
 R139
+R140
 !i113 1
 R13
 R14
 Eforwarding_unit
-R133
+Z141 w1481226938
 R1
 R2
 R3
 R4
 R5
-Z140 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd
-Z141 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd
+Z142 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd
+Z143 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd
 l0
 L6
 VKPX:KKClT0`VYPUh6<3E?1
 !s100 aBI>>ZgL>CAOgnn]?Qm[80
 R8
 32
-Z142 !s110 1481174058
+Z144 !s110 1481226967
 !i10b 1
-Z143 !s108 1481174058.000000
-Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd|
-Z145 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd|
+Z145 !s108 1481226967.000000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd|
+Z147 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit.vhd|
 !i113 1
 R13
 R14
@@ -1209,38 +1209,38 @@ R4
 DEx4 work 15 forwarding_unit 0 22 KPX:KKClT0`VYPUh6<3E?1
 l35
 L14
-VS9dbjh0>C;Dc@VR41]Pn53
-!s100 AGM_EI_<OFLFaj][bCD[Y3
+VbzV@zK79X0C[kQfm;KoRD2
+!s100 K<ICMcBV>Q?hYgDFa:^160
 R8
 32
-R142
-!i10b 1
-R143
 R144
+!i10b 1
 R145
+R146
+R147
 !i113 1
 R13
 R14
 Eforwarding_unit_tb
-R133
+Z148 w1481224375
 R1
 R2
 R3
 R4
 R5
-Z146 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_unit_tb.vhd
-Z147 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_unit_tb.vhd
+Z149 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit_tb.vhd
+Z150 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit_tb.vhd
 l0
 L6
 VO3J@eHajo7DBW1IVhj>kN0
 !s100 1ajcTjgO>H3FLjh4zk=a`3
 R8
 32
-Z148 !s110 1481171554
+Z151 !s110 1481226189
 !i10b 1
-Z149 !s108 1481171554.000000
-Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_unit_tb.vhd|
-Z151 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/forwarding_unit_tb.vhd|
+Z152 !s108 1481226189.000000
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit_tb.vhd|
+Z154 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\forwarding_unit_tb.vhd|
 !i113 1
 R13
 R14
@@ -1256,11 +1256,11 @@ V>hW6ZHOGg@;bcBQ9;^^ha1
 !s100 VZ0jCGbdMQg69>Kh@EE1V0
 R8
 32
-R148
-!i10b 1
-R149
-R150
 R151
+!i10b 1
+R152
+R153
+R154
 !i113 1
 R13
 R14
@@ -1312,19 +1312,19 @@ R0
 R3
 R4
 R5
-Z152 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd
-Z153 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd
+Z155 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd
+Z156 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd
 l0
 L4
 Vi1z0YKH]U<^O:P?Qz[PZ92
 !s100 HjWKi3aVc:Qo3S:[Q]Sbm1
 R8
 32
-R74
+R55
 !i10b 1
-R75
-Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd|
-Z155 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd|
+R56
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd|
+Z158 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd|
 !i113 1
 R13
 R14
@@ -1338,11 +1338,11 @@ VVD?A8nRBSonL6gQPZaCoz0
 !s100 @m:MWnXfOon<8@P_hO3V<1
 R8
 32
-R74
+R55
 !i10b 1
-R75
-R154
-R155
+R56
+R157
+R158
 !i113 1
 R13
 R14
@@ -1353,19 +1353,19 @@ R2
 R3
 R4
 R5
-Z156 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd
-Z157 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd
+Z159 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd
+Z160 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd
 l0
 L5
 VK7=aUHc=`JnmTUJT6ao@23
 !s100 R7SGh1UNzgRXkDgUzi0Dn0
 R8
 32
-R103
-!i10b 1
 R104
-Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd|
-Z159 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd|
+!i10b 1
+R105
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd|
+Z162 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd|
 !i113 1
 R13
 R14
@@ -1381,11 +1381,11 @@ V3DTl6>2FUoOFX_XTRZS:L3
 !s100 TMbaX=C3aUF9Pl?TK_bl20
 R8
 32
-R103
-!i10b 1
 R104
-R158
-R159
+!i10b 1
+R105
+R161
+R162
 !i113 1
 R13
 R14
@@ -1394,19 +1394,19 @@ R0
 R3
 R4
 R5
-Z160 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd
-Z161 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd
+Z163 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd
+Z164 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd
 l0
 L4
 V5QL:2Pg1;4agLoRWlQHjd1
 !s100 ]4c3]f;XC1bMG5?d:W=bU2
 R8
 32
-Z162 !s110 1481162475
+Z165 !s110 1481224211
 !i10b 1
-Z163 !s108 1481162475.000000
-Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd|
-Z165 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd|
+Z166 !s108 1481224211.000000
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd|
+Z168 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd|
 !i113 1
 R13
 R14
@@ -1420,11 +1420,11 @@ VkLSOT;mUA2Kh[^4^_Cf^o3
 !s100 JOiT:a55_NfX_N9R4Vg9g1
 R8
 32
-R162
-!i10b 1
-R163
-R164
 R165
+!i10b 1
+R166
+R167
+R168
 !i113 1
 R13
 R14
@@ -1433,19 +1433,19 @@ R0
 R3
 R4
 R5
-Z166 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd
-Z167 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd
+Z169 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd
+Z170 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd
 l0
 L4
 V9bD0oN]neGkVC=lH01WhQ3
 !s100 7=dS_b?4`OmlF0:e;[`MH0
 R8
 32
-R129
+R119
 !i10b 1
-R130
-Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd|
-Z169 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd|
+R131
+Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd|
+Z172 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd|
 !i113 1
 R13
 R14
@@ -1459,11 +1459,11 @@ Vz_BcFQK2kmgoJ7Q4SnG6z1
 !s100 @78T[J9oGkUha5R5DPm;V3
 R8
 32
-R129
+R119
 !i10b 1
-R130
-R168
-R169
+R131
+R171
+R172
 !i113 1
 R13
 R14
@@ -1472,19 +1472,19 @@ R0
 R3
 R4
 R5
-Z170 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd
-Z171 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd
+Z173 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd
+Z174 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd
 l0
 L4
 VlQoZz_[FPhQ2mIE[a>_E63
 !s100 @<O:SDZFk47M@=NamKi6O0
 R8
 32
-R129
+R119
 !i10b 1
-R130
-Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd|
-Z173 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd|
+R131
+Z175 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd|
+Z176 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd|
 !i113 1
 R13
 R14
@@ -1498,11 +1498,11 @@ VkAgL23NZ>h?B><Ca`2Lb^3
 !s100 RE`kdQQ7Ygcj0FL6S>54U0
 R8
 32
-R129
+R119
 !i10b 1
-R130
-R172
-R173
+R131
+R175
+R176
 !i113 1
 R13
 R14
@@ -1511,19 +1511,19 @@ R0
 R3
 R4
 R5
-Z174 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd
-Z175 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd
+Z177 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd
+Z178 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd
 l0
 L4
 V4BD0kOUo_c^]00;8Fi=XO0
 !s100 zKdVCN>a^`;T=;j4eg?Xo3
 R8
 32
-R162
+R165
 !i10b 1
-R163
-Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd|
-Z177 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd|
+R166
+Z179 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd|
+Z180 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd|
 !i113 1
 R13
 R14
@@ -1537,34 +1537,34 @@ V=nIS8QYR6Xojlbd><zTWl1
 !s100 maUZWPnFL10EP5VFD<D]90
 R8
 32
-R162
+R165
 !i10b 1
-R163
-R176
-R177
+R166
+R179
+R180
 !i113 1
 R13
 R14
 Emux_16
-Z178 w1481138754
+Z181 w1481138754
 R1
 R2
 R3
 R4
 R5
-Z179 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd
-Z180 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd
+Z182 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd
+Z183 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd
 l0
 L6
 V[X7JmT>GV0F0b_eh`6a_:2
 !s100 09AX8OcVJiM]0oGA@DCcN3
 R8
 32
-Z181 !s110 1481162471
+Z184 !s110 1481224207
 !i10b 1
-Z182 !s108 1481162471.000000
-Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd|
-Z184 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd|
+Z185 !s108 1481224207.000000
+Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd|
+Z187 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd|
 !i113 1
 R13
 R14
@@ -1580,34 +1580,34 @@ V54aAQ@h>NBoD8]QU8>>Do1
 !s100 <Ic0Dnk]HOBmPjX5c?n_B3
 R8
 32
-R181
-!i10b 1
-R182
-R183
 R184
+!i10b 1
+R185
+R186
+R187
 !i113 1
 R13
 R14
 Emux_2
-Z185 w1481168079
+Z188 w1481168079
 R1
 R2
 R3
 R4
 R5
-Z186 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_2.vhd
-Z187 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_2.vhd
+Z189 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd
+Z190 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd
 l0
 L5
 V;Z5ImaOY1S[5^JPzVK>H00
 !s100 :A@8Oz3;GJgEV]eMG1F1O3
 R8
 32
-Z188 !s110 1481168080
+R72
 !i10b 1
-Z189 !s108 1481168080.000000
-Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_2.vhd|
-Z191 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_2.vhd|
+Z191 !s108 1481224213.000000
+Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd|
+Z193 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd|
 !i113 1
 R13
 R14
@@ -1623,11 +1623,11 @@ V24k?]zeAGgzkfz1OdbD^U2
 !s100 a^ke>GF:<Az6Y7m<zfREc0
 R8
 32
-R188
+R72
 !i10b 1
-R189
-R190
 R191
+R192
+R193
 !i113 1
 R13
 R14
@@ -1638,19 +1638,19 @@ R2
 R3
 R4
 R5
-Z192 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd
-Z193 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd
+Z194 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd
+Z195 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd
 l0
 L5
 Vf0=;;]]K:=^T1nBQ5e17^3
 !s100 ciE_BzZP_7gaALUfNcf3V2
 R8
 32
-R103
-!i10b 1
 R104
-Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd|
-Z195 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd|
+!i10b 1
+R105
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd|
+Z197 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd|
 !i113 1
 R13
 R14
@@ -1666,11 +1666,11 @@ VKeQ<:6F8lK`NkV:8=1c^N0
 !s100 iiT]gRaJ0BGA@1c7lKGZ;1
 R8
 32
-R103
-!i10b 1
 R104
-R194
-R195
+!i10b 1
+R105
+R196
+R197
 !i113 1
 R13
 R14
@@ -1679,19 +1679,19 @@ R0
 R3
 R4
 R5
-Z196 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd
-Z197 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd
+Z198 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd
+Z199 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd
 l0
 L5
 VEm>Pe?ieRLhloI@m?obcJ2
 !s100 Y;foB17R4g1Mf1RM5oBCo1
 R8
 32
-R162
+R165
 !i10b 1
-R163
-Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd|
-Z199 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd|
+R166
+Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd|
+Z201 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd|
 !i113 1
 R13
 R14
@@ -1705,11 +1705,11 @@ VmL]Nn[F=N^`69AgeDa7ek1
 !s100 Gh5Z`HS2T3CTJ9e2_<ilX0
 R8
 32
-R162
+R165
 !i10b 1
-R163
-R198
-R199
+R166
+R200
+R201
 !i113 1
 R13
 R14
@@ -1718,19 +1718,19 @@ R0
 R3
 R4
 R5
-Z200 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd
-Z201 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd
+Z202 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd
+Z203 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd
 l0
 L5
 VZ@z_3Ljlcm:o>UV@3MG4E0
 !s100 ZOfKij9LBcVDQ2coi@n000
 R8
 32
-R129
+R165
 !i10b 1
-R130
-Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd|
-Z203 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd|
+R131
+Z204 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd|
+Z205 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd|
 !i113 1
 R13
 R14
@@ -1744,11 +1744,11 @@ Vae^VHPjJaa:7A3No5hFK`3
 !s100 oUIRo0V51ZjGK=T;bU7^31
 R8
 32
-R129
+R165
 !i10b 1
-R130
-R202
-R203
+R131
+R204
+R205
 !i113 1
 R13
 R14
@@ -1757,19 +1757,19 @@ R0
 R3
 R4
 R5
-Z204 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd
-Z205 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd
+Z206 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd
+Z207 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd
 l0
 L4
 ViH6UFAhH6hVez8eh:^J[41
 !s100 Ho?h^AfMPBc@Qc_h:8TWB1
 R8
 32
-R129
+R119
 !i10b 1
-R130
-Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd|
-Z207 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd|
+R131
+Z208 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd|
+Z209 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd|
 !i113 1
 R13
 R14
@@ -1783,32 +1783,32 @@ V6hPHH?nY>mZ3l=@gbTk6K1
 !s100 YPX8dc2[EMO[YHbj2YkFE0
 R8
 32
-R129
+R119
 !i10b 1
-R130
-R206
-R207
+R131
+R208
+R209
 !i113 1
 R13
 R14
 Emux_4_1
-Z208 w1481170076
+Z210 w1481170076
 R3
 R4
 R5
-Z209 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_4_1.vhd
-Z210 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_4_1.vhd
+Z211 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd
+Z212 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd
 l0
 L4
 VT9g9S?FD56W7Smk;o3dE>3
 !s100 90<eHS7a=R:cWAj;SY^N93
 R8
 32
-Z211 !s110 1481170077
+R72
 !i10b 1
-Z212 !s108 1481170077.000000
-Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_4_1.vhd|
-Z214 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_4_1.vhd|
+R191
+Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd|
+Z214 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd|
 !i113 1
 R13
 R14
@@ -1822,9 +1822,9 @@ VKQ1gQbQHPXhzg0S;f9NDh2
 !s100 ::7L8g>k`CoXEkKaMV_N>3
 R8
 32
-R211
+R72
 !i10b 1
-R212
+R191
 R213
 R214
 !i113 1
@@ -1845,9 +1845,9 @@ V9H6LYBG6Od5`13C=B4=;Q0
 !s100 0:hD5?27m;LRPGCjV>;e@2
 R8
 32
-R123
+R184
 !i10b 1
-R124
+R126
 Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd|
 Z219 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd|
 !i113 1
@@ -1865,9 +1865,9 @@ V`K`[SQD=3^<Y487NiPDmR1
 !s100 eF2^fhBE23=^@TmV@kS_k1
 R8
 32
-R123
+R184
 !i10b 1
-R124
+R126
 R218
 R219
 !i113 1
@@ -1888,9 +1888,9 @@ VibE:VW^[X^ncI5ccml2DV1
 !s100 TKZ>7TXMgl?I5=^H;D7dT3
 R8
 32
-R129
+R119
 !i10b 1
-R130
+R131
 Z222 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd|
 Z223 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd|
 !i113 1
@@ -1908,9 +1908,9 @@ V^J1GHT;[l0^fF`ZJZEMZV3
 !s100 DiRZTAb[15jL8CPebLMEa0
 R8
 32
-R129
+R119
 !i10b 1
-R130
+R131
 R222
 R223
 !i113 1
@@ -1931,9 +1931,9 @@ V3cfA;hZZOWgKhCkRY23?A3
 !s100 _e?kFWC;<3KhKU:k2@LTF3
 R8
 32
-R129
+R119
 !i10b 1
-R130
+R131
 Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd|
 Z227 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd|
 !i113 1
@@ -1951,9 +1951,9 @@ VLWKQ5A]:<l]`eIUO<c2IJ2
 !s100 eC_FANg_?38AIK`oaNUOF1
 R8
 32
-R129
+R119
 !i10b 1
-R130
+R131
 R226
 R227
 !i113 1
@@ -1972,9 +1972,9 @@ V;zSXBg2NF=fdOcEVJhSfU1
 !s100 DhH_dWUkhZScmPX0PShL>1
 R8
 32
-R103
-!i10b 1
 R104
+!i10b 1
+R105
 Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_n.vhd|
 Z231 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_n.vhd|
 !i113 1
@@ -1990,9 +1990,9 @@ V<PAb:D>KRV6jc0IIjVCbd2
 !s100 VOPJAGmKhfQ>L9L:P_FXf0
 R8
 32
-R103
-!i10b 1
 R104
+!i10b 1
+R105
 R230
 R231
 !i113 1
@@ -2005,19 +2005,19 @@ R2
 R3
 R4
 R5
-Z232 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\next_address_logic.vhd
-Z233 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\next_address_logic.vhd
+Z232 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/next_address_logic.vhd
+Z233 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/next_address_logic.vhd
 l0
 L6
 VUojf`6LiX525bkBX?nT1R0
 !s100 =0z=JV4Pd3IbjFIT>HMhC2
 R8
 32
-R162
+R165
 !i10b 1
-R163
-Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\next_address_logic.vhd|
-Z235 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\next_address_logic.vhd|
+R166
+Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/next_address_logic.vhd|
+Z235 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/next_address_logic.vhd|
 !i113 1
 R13
 R14
@@ -2033,16 +2033,16 @@ V>;^:_DkNVDlI?hMOUEBBW2
 !s100 iLAKSG?l8khoOmo@d`Ub@1
 R8
 32
-R162
+R165
 !i10b 1
-R163
+R166
 R234
 R235
 !i113 1
 R13
 R14
 Enal_pipelined
-Z236 w1481173930
+Z236 w1481223592
 R1
 R2
 R3
@@ -2051,16 +2051,16 @@ R5
 Z237 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd
 Z238 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd
 l0
-L7
-VdJ?Xk`>2gJBR1acFIV:a@2
-!s100 ]47V24gO^gELklm7kXWeb3
+L6
+VebkJQhW0LZI[hSKoba6Ln1
+!s100 >S^kK3zIP5[;N;:2d37iD0
 R8
 32
-Z239 !s110 1481173952
+R72
 !i10b 1
-Z240 !s108 1481173952.000000
-Z241 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd|
-Z242 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd|
+R191
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd|
+Z240 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd|
 !i113 1
 R13
 R14
@@ -2069,18 +2069,61 @@ R1
 R2
 R3
 R4
-DEx4 work 13 nal_pipelined 0 22 dJ?Xk`>2gJBR1acFIV:a@2
-l126
-L15
-V5ailVN9<lNf2]<nb7`LC?2
-!s100 1A]DWzMAbe>UBj=7`fg631
+DEx4 work 13 nal_pipelined 0 22 ebkJQhW0LZI[hSKoba6Ln1
+l122
+L14
+V=ckonC@<XV?f@o3WIn<Ae3
+!s100 Xz:Vla;NPikX9I7;<_8I<1
 R8
 32
-R239
+R72
 !i10b 1
+R191
+R239
 R240
-R241
-R242
+!i113 1
+R13
+R14
+Enal_pipelined_tb
+Z241 w1481218855
+R1
+R2
+R3
+R4
+R5
+Z242 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined_tb.vhd
+Z243 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined_tb.vhd
+l0
+L6
+VlehLTGBQ<O4Fm=AOGi87h2
+!s100 :`gPg99_Dd`SjD;l]X7TM2
+R8
+32
+Z244 !s110 1481224214
+!i10b 1
+Z245 !s108 1481224214.000000
+Z246 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined_tb.vhd|
+Z247 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined_tb.vhd|
+!i113 1
+R13
+R14
+Abehav
+R1
+R2
+R3
+R4
+DEx4 work 16 nal_pipelined_tb 0 22 lehLTGBQ<O4Fm=AOGi87h2
+l22
+L9
+V^:9GIL=^FnHAI=lg9k>H;3
+!s100 jbJ5gch3Z[BNlzbK`NUec3
+R8
+32
+R244
+!i10b 1
+R245
+R246
+R247
 !i113 1
 R13
 R14
@@ -2091,19 +2134,19 @@ R2
 R3
 R4
 R5
-Z243 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd
-Z244 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd
+Z248 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\NAL_tb.vhd
+Z249 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\NAL_tb.vhd
 l0
 L6
 VQ1c`^C<W<06@0G2TL]5YU1
 !s100 Meli3OB5U^E`F4Uk?8YSa2
 R8
 32
-R162
+R165
 !i10b 1
-R163
-Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd|
-Z246 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd|
+R166
+Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\NAL_tb.vhd|
+Z251 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\NAL_tb.vhd|
 !i113 1
 R13
 R14
@@ -2119,11 +2162,11 @@ VZ>02`D]P^fcA^79V8`b7d1
 !s100 KGbSBE6kZBXESAom_?dFd1
 R8
 32
-R162
+R165
 !i10b 1
-R163
-R245
-R246
+R166
+R250
+R251
 !i113 1
 R13
 R14
@@ -2132,19 +2175,19 @@ R15
 R3
 R4
 R5
-Z247 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd
-Z248 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd
+Z252 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd
+Z253 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd
 l0
 L5
 V>=?nZkoAWfz4bcBSP]P8D0
 !s100 `;YoNjg98=RO3KEUJb?JH2
 R8
 32
-R103
-!i10b 1
 R104
-Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd|
-Z250 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd|
+!i10b 1
+R105
+Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd|
+Z255 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd|
 !i113 1
 R13
 R14
@@ -2158,11 +2201,11 @@ VW=9kaHeKnMOT]53Zgm3j60
 !s100 DdgXSJTenGYMFNYGk^j2^2
 R8
 32
-R103
-!i10b 1
 R104
-R249
-R250
+!i10b 1
+R105
+R254
+R255
 !i113 1
 R13
 R14
@@ -2171,19 +2214,19 @@ R15
 R3
 R4
 R5
-Z251 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd
-Z252 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd
+Z256 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd
+Z257 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd
 l0
 L5
 VAkkmJkNzLE]g7EeS9@@UT3
 !s100 d7`oU3cRhD_iz]OR?aJbM0
 R8
 32
-R103
-!i10b 1
 R104
-Z253 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd|
-Z254 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd|
+!i10b 1
+R105
+Z258 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd|
+Z259 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -2197,11 +2240,11 @@ V=1NKga?nfG@h;kEUn3`]A2
 !s100 5L7`cY6bRPYMYkmEYAg871
 R8
 32
-R103
-!i10b 1
 R104
-R253
-R254
+!i10b 1
+R105
+R258
+R259
 !i113 1
 R13
 R14
@@ -2210,19 +2253,19 @@ R15
 R3
 R4
 R5
-Z255 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd
-Z256 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd
+Z260 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd
+Z261 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd
 l0
 L5
 VMbRaU;<N6AP>6jLgLz^2V2
 !s100 LMidV?0i^0NCQXjDDfE0j1
 R8
 32
-Z257 !s110 1481162468
+Z262 !s110 1481224204
 !i10b 1
-R104
-Z258 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd|
-Z259 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd|
+Z263 !s108 1481224204.000000
+Z264 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd|
+Z265 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -2236,11 +2279,11 @@ V`PB3BMEdn?:`l>6VPj2]m2
 !s100 5mzmEVJ8`Ol]kLAA1ADTS0
 R8
 32
-R257
+R262
 !i10b 1
-R104
-R258
-R259
+R263
+R264
+R265
 !i113 1
 R13
 R14
@@ -2249,19 +2292,19 @@ R15
 R3
 R4
 R5
-Z260 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd
-Z261 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd
+Z266 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd
+Z267 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd
 l0
 L5
 VI8o7ih@EliUE^]j^gd]Fi0
 !s100 Uz[KW04m>JL2N=<Ae_26A3
 R8
 32
-R257
+R262
 !i10b 1
-Z262 !s108 1481162468.000000
-Z263 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd|
-Z264 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd|
+R263
+Z268 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd|
+Z269 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd|
 !i113 1
 R13
 R14
@@ -2275,11 +2318,11 @@ V^W=_7FLQ47DC:RCD4Nihn3
 !s100 kE2E`N:jBl`5f7h@CAkLc3
 R8
 32
-R257
-!i10b 1
 R262
+!i10b 1
 R263
-R264
+R268
+R269
 !i113 1
 R13
 R14
@@ -2288,19 +2331,19 @@ R15
 R3
 R4
 R5
-Z265 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\nor_gate_32.vhd
-Z266 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\nor_gate_32.vhd
+Z270 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd
+Z271 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd
 l0
 L5
 V22i`YRcih0R:MkYAoD<^z3
 !s100 3mdJRKLJ_1Z1ih<o1WC>A3
 R8
 32
-R257
-!i10b 1
 R262
-Z267 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\nor_gate_32.vhd|
-Z268 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\nor_gate_32.vhd|
+!i10b 1
+R263
+Z272 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd|
+Z273 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -2314,11 +2357,11 @@ Vabg]]4?UkKMTMnAolzzCM1
 !s100 4C[N[o;dbNU?^;JAFz8P@0
 R8
 32
-R257
-!i10b 1
 R262
-R267
-R268
+!i10b 1
+R263
+R272
+R273
 !i113 1
 R13
 R14
@@ -2329,19 +2372,19 @@ R2
 R3
 R4
 R5
-Z269 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd
-Z270 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd
+Z274 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd
+Z275 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd
 l0
 L10
 VU8HGZ]h[iWc_Veb8Xl85;1
 !s100 ;BJCU<J971A;W3kc3DkIC3
 R8
 32
-R162
+R165
 !i10b 1
-R163
-Z271 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd|
-Z272 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd|
+R166
+Z276 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd|
+Z277 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd|
 !i113 1
 R13
 R14
@@ -2357,11 +2400,11 @@ VB`jAVnHI^NmBcPdKG3IXI1
 !s100 M]ehPR56SATEgmPHOQ7f;1
 R8
 32
-R162
+R165
 !i10b 1
-R163
-R271
-R272
+R166
+R276
+R277
 !i113 1
 R13
 R14
@@ -2370,19 +2413,19 @@ R15
 R3
 R4
 R5
-Z273 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd
-Z274 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd
+Z278 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd
+Z279 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd
 l0
 L5
 Vl0VXFkCXm@4YTj;kme7bJ3
 !s100 WOgXHNaOaa3V@ZQR9[dBF2
 R8
 32
-R257
-!i10b 1
 R262
-Z275 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd|
-Z276 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd|
+!i10b 1
+R263
+Z280 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd|
+Z281 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -2396,11 +2439,11 @@ V;JI7JCDzR4GG4G6d6[k1H1
 !s100 LLY;[lESSHQFLXI0BM0Lk2
 R8
 32
-R257
-!i10b 1
 R262
-R275
-R276
+!i10b 1
+R263
+R280
+R281
 !i113 1
 R13
 R14
@@ -2409,19 +2452,19 @@ R15
 R3
 R4
 R5
-Z277 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd
-Z278 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd
+Z282 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd
+Z283 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd
 l0
 L5
 VnFCllDonab6>_FBgaJD?72
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R8
 32
-R257
-!i10b 1
 R262
-Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd|
-Z280 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd|
+!i10b 1
+R263
+Z284 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd|
+Z285 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd|
 !i113 1
 R13
 R14
@@ -2435,11 +2478,11 @@ VoRNNSo9h3mXW0G:418gWK2
 !s100 0K4o_`::YhV<`CcAlY38V3
 R8
 32
-R257
-!i10b 1
 R262
-R279
-R280
+!i10b 1
+R263
+R284
+R285
 !i113 1
 R13
 R14
@@ -2448,19 +2491,19 @@ R15
 R3
 R4
 R5
-Z281 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\not_gate_32.vhd
-Z282 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\not_gate_32.vhd
+Z286 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd
+Z287 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd
 l0
 L5
 VCMY`_k>B@?[:fY;;RTFhI3
 !s100 MlQa>L3D?j3YTME?WDA^I3
 R8
 32
-R257
-!i10b 1
 R262
-Z283 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\not_gate_32.vhd|
-Z284 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\EECS361_Standard_Library\not_gate_32.vhd|
+!i10b 1
+R263
+Z288 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd|
+Z289 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -2474,11 +2517,11 @@ VYfcFa_Q]j]aojheAPiGU82
 !s100 SZ]KSd]7=<``cT7UO3c^32
 R8
 32
-R257
-!i10b 1
 R262
-R283
-R284
+!i10b 1
+R263
+R288
+R289
 !i113 1
 R13
 R14
@@ -2487,19 +2530,19 @@ R15
 R3
 R4
 R5
-Z285 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd
-Z286 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd
+Z290 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd
+Z291 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd
 l0
 L5
 V]YN1bP5PncA]YiZdPQLiZ0
 !s100 IMo29cac8Wo2jk<h1@>Y41
 R8
 32
-R257
-!i10b 1
 R262
-Z287 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd|
-Z288 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd|
+!i10b 1
+R263
+Z292 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd|
+Z293 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -2513,11 +2556,11 @@ VY=kRzVXB0I^8;Cb6=BTb=2
 !s100 f1R?C4QOI1W16^[L00fF`1
 R8
 32
-R257
-!i10b 1
 R262
-R287
-R288
+!i10b 1
+R263
+R292
+R293
 !i113 1
 R13
 R14
@@ -2526,19 +2569,19 @@ R15
 R3
 R4
 R5
-Z289 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd
-Z290 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd
+Z294 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd
+Z295 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd
 l0
 L5
 V]V4:[zOg=`Hz=NVD49`EB0
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R8
 32
-R257
+Z296 !s110 1481224205
 !i10b 1
-R262
-Z291 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd|
-Z292 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd|
+R263
+Z297 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd|
+Z298 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd|
 !i113 1
 R13
 R14
@@ -2552,11 +2595,11 @@ VzZnC^fGC0YlVk8F@?J2=b1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R8
 32
-R257
+R296
 !i10b 1
-R262
-R291
-R292
+R263
+R297
+R298
 !i113 1
 R13
 R14
@@ -2565,19 +2608,19 @@ R15
 R3
 R4
 R5
-Z293 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd
-Z294 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd
+Z299 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd
+Z300 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd
 l0
 L5
 V>NaH1fGSHV47k5<oM[PdO0
 !s100 XkkR6QF?Vl4ZJYEZjo;0l2
 R8
 32
-Z295 !s110 1481162469
+R296
 !i10b 1
-Z296 !s108 1481162469.000000
-Z297 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd|
-Z298 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd|
+Z301 !s108 1481224205.000000
+Z302 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd|
+Z303 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -2591,11 +2634,11 @@ VmJ?T:AiMG:Ea0cmC;ibSU0
 !s100 K:BE?onG;^0[1Z5dkfcRR0
 R8
 32
-R295
-!i10b 1
 R296
-R297
-R298
+!i10b 1
+R301
+R302
+R303
 !i113 1
 R13
 R14
@@ -2604,19 +2647,19 @@ R15
 R3
 R4
 R5
-Z299 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd
-Z300 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd
+Z304 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd
+Z305 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd
 l0
 L5
 V8fCQ5^oFTgO85@<6L@H=33
 !s100 Y[01iFT>714d^L[KJ4VM82
 R8
 32
-R295
-!i10b 1
 R296
-Z301 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd|
-Z302 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd|
+!i10b 1
+R301
+Z306 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd|
+Z307 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -2630,32 +2673,32 @@ VT=;h?ii`B?_ojMCNC@o081
 !s100 X0T0eOJ7Mi7@HZjHoZO6:3
 R8
 32
-R295
-!i10b 1
 R296
+!i10b 1
 R301
-R302
+R306
+R307
 !i113 1
 R13
 R14
 Ereg_ex_mem
-Z303 w1481172961
+Z308 w1481172961
 R3
 R4
 R5
-Z304 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_EX_MEM.vhd
-Z305 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_EX_MEM.vhd
+Z309 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_EX_MEM.vhd
+Z310 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_EX_MEM.vhd
 l0
 L4
 V72H34OVJ[bj_JbC^^Jgz72
 !s100 GmF3m>U;hQOLh^C]4i]^:0
 R8
 32
-Z306 !s110 1481172963
+R184
 !i10b 1
-Z307 !s108 1481172963.000000
-Z308 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_EX_MEM.vhd|
-Z309 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_EX_MEM.vhd|
+R185
+Z311 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_EX_MEM.vhd|
+Z312 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_EX_MEM.vhd|
 !i113 1
 R13
 R14
@@ -2669,32 +2712,32 @@ VN[hHCA5=NM9CEU>=Vje[k1
 !s100 cYLQ^6H93g?<39kdc2_Lc2
 R8
 32
-R306
+R184
 !i10b 1
-R307
-R308
-R309
+R185
+R311
+R312
 !i113 1
 R13
 R14
 Ereg_id_ex
-Z310 w1481172868
+Z313 w1481172868
 R3
 R4
 R5
-Z311 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_ID_EX.vhd
-Z312 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_ID_EX.vhd
+Z314 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd
+Z315 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd
 l0
 L4
 VDDX`<Q3IaEbk3IY7^Cnh10
 !s100 J[784m;bZ>YTaoM2>iLY80
 R8
 32
-Z313 !s110 1481172869
+R184
 !i10b 1
-Z314 !s108 1481172869.000000
-Z315 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_ID_EX.vhd|
-Z316 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_ID_EX.vhd|
+R185
+Z316 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd|
+Z317 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd|
 !i113 1
 R13
 R14
@@ -2708,32 +2751,32 @@ V8c;jXmVhXIGLO3B_1?>S@1
 !s100 l=f<D;Rhz?5f<QLEGURm]2
 R8
 32
-R313
+R184
 !i10b 1
-R314
-R315
+R185
 R316
+R317
 !i113 1
 R13
 R14
 Ereg_if_id
-Z317 w1481135300
+Z318 w1481135300
 R3
 R4
 R5
-Z318 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_IF_ID.vhd
-Z319 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_IF_ID.vhd
+Z319 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd
+Z320 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd
 l0
 L5
 V8a:NLf@chFaDjQl1;nPlR0
 !s100 H_TG;6LmOz?ge^1jA7NVO0
 R8
 32
-R181
+R184
 !i10b 1
-R182
-Z320 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_IF_ID.vhd|
-Z321 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_IF_ID.vhd|
+R185
+Z321 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd|
+Z322 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd|
 !i113 1
 R13
 R14
@@ -2747,32 +2790,32 @@ V7?XTI7hD:]@XU?cTHO5>V0
 !s100 :dj?6UFOSec9EOjUa7l4l3
 R8
 32
-R181
+R184
 !i10b 1
-R182
-R320
+R185
 R321
+R322
 !i113 1
 R13
 R14
 Ereg_mem_wb
-Z322 w1481172845
+Z323 w1481172845
 R3
 R4
 R5
-Z323 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_MEM_WB.vhd
-Z324 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_MEM_WB.vhd
+Z324 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd
+Z325 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd
 l0
 L5
 VeN]dg;a=41Fjz@DbK2EDm3
 !s100 M9_l8Eee:S6HG6N;bUgNY1
 R8
 32
-Z325 !s110 1481172856
+R184
 !i10b 1
-Z326 !s108 1481172856.000000
-Z327 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_MEM_WB.vhd|
-Z328 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\Reg_MEM_WB.vhd|
+R185
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd|
+Z327 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd|
 !i113 1
 R13
 R14
@@ -2786,21 +2829,21 @@ VG:LCH7R]50eMjLc11W0m13
 !s100 g_LVc7X;n[Dc9@WTKRd8T2
 R8
 32
-R325
+R184
 !i10b 1
+R185
 R326
 R327
-R328
 !i113 1
 R13
 R14
 Eregister_16bit
-Z329 w1481138932
+Z328 w1481138932
 R3
 R4
 R5
-Z330 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd
-Z331 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd
+Z329 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd
+Z330 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd
 l0
 L7
 V786jIBVY`H4ZG0U24VeZU0
@@ -2810,8 +2853,8 @@ R8
 R9
 !i10b 1
 R10
-Z332 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd|
-Z333 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd|
+Z331 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd|
+Z332 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_16bit.vhd|
 !i113 1
 R13
 R14
@@ -2828,8 +2871,8 @@ R8
 R9
 !i10b 1
 R10
+R331
 R332
-R333
 !i113 1
 R13
 R14
@@ -2838,19 +2881,19 @@ R0
 R3
 R4
 R5
-Z334 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd
-Z335 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd
+Z333 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd
+Z334 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd
 l0
 L5
 V673A@9fHYHAXD@A4bAbWo3
 !s100 ga4l^XR5lSDz=5?Rl?GmE1
 R8
 32
-R162
+R66
 !i10b 1
-R163
-Z336 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd|
-Z337 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd|
+R166
+Z335 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd|
+Z336 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd|
 !i113 1
 R13
 R14
@@ -2864,11 +2907,11 @@ V?2K37Mj9a`mok=fD6X5b01
 !s100 ]z9aWj[ncahD5;QP3`Q^A3
 R8
 32
-R162
+R66
 !i10b 1
-R163
+R166
+R335
 R336
-R337
 !i113 1
 R13
 R14
@@ -2877,19 +2920,19 @@ R0
 R3
 R4
 R5
-Z338 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd
-Z339 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd
+Z337 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd
+Z338 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd
 l0
 L6
 Vz;:^a3QGNUBR^RNYB>G281
 !s100 <`S9]eQ@YhJSAjBGQ_gZa3
 R8
 32
-R64
+R66
 !i10b 1
-R65
-Z340 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd|
-Z341 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd|
+R67
+Z339 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd|
+Z340 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd|
 !i113 1
 R13
 R14
@@ -2903,11 +2946,11 @@ V;ciHI[81cnQAzG03nciGF0
 !s100 0G6_^ZYHS4bFD3`NVXH2d2
 R8
 32
-R64
+R66
 !i10b 1
-R65
+R67
+R339
 R340
-R341
 !i113 1
 R13
 R14
@@ -2916,19 +2959,19 @@ R0
 R3
 R4
 R5
-Z342 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd
-Z343 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd
+Z341 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd
+Z342 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd
 l0
 L5
 Vl=i0PShY6[h3AOFEDILT63
 !s100 7DFY?cQb9z^BSeofAf6;f0
 R8
 32
-R64
+R66
 !i10b 1
-R65
-Z344 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd|
-Z345 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd|
+R67
+Z343 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd|
+Z344 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd|
 !i113 1
 R13
 R14
@@ -2942,11 +2985,11 @@ VQdIlUFcm:SOhTaFWcDJo91
 !s100 04D8?UQ>Y>`<bP]P04cNH3
 R8
 32
-R64
+R66
 !i10b 1
-R65
+R67
+R343
 R344
-R345
 !i113 1
 R13
 R14
@@ -2955,19 +2998,19 @@ R0
 R3
 R4
 R5
-Z346 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd
-Z347 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd
+Z345 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd
+Z346 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd
 l0
 L4
 VOUHZ^g;zjgY92bOcX1VkF1
 !s100 hHDfVGn3U9Z8;UDj3Y<661
 R8
 32
-R64
+R66
 !i10b 1
-R65
-Z348 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd|
-Z349 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd|
+R67
+Z347 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd|
+Z348 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd|
 !i113 1
 R13
 R14
@@ -2981,11 +3024,11 @@ V@2@mK6Gc`mW_moe9:H:ab2
 !s100 fTlTVTkPRF@Ke9OL=YQ]n2
 R8
 32
-R64
+R66
 !i10b 1
-R65
+R67
+R347
 R348
-R349
 !i113 1
 R13
 R14
@@ -2994,19 +3037,19 @@ R0
 R3
 R4
 R5
-Z350 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd
-Z351 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd
+Z349 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd
+Z350 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd
 l0
 L4
 VUjRdlYo[N]iIP_Xa8c`f82
 !s100 >fFD0WR>^`MV`[6Nz=54L0
 R8
 32
-R64
+R66
 !i10b 1
-R65
-Z352 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd|
-Z353 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd|
+R67
+Z351 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd|
+Z352 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd|
 !i113 1
 R13
 R14
@@ -3020,11 +3063,11 @@ V;zLzYRIVPW;?7:i>0SbSz0
 !s100 LAdf_?mSI971j`0=[G7V11
 R8
 32
-R64
+R66
 !i10b 1
-R65
+R67
+R351
 R352
-R353
 !i113 1
 R13
 R14
@@ -3033,19 +3076,19 @@ R0
 R3
 R4
 R5
-Z354 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd
-Z355 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd
+Z353 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd
+Z354 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd
 l0
 L6
 V:O7DWQ3<9b>e@CA4E>kYP1
 !s100 iI[Cg^W_emnSL?nPoU38>2
 R8
 32
-R64
+R66
 !i10b 1
-R65
-Z356 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd|
-Z357 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd|
+R67
+Z355 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd|
+Z356 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd|
 !i113 1
 R13
 R14
@@ -3059,32 +3102,32 @@ VzJ7ShbcmeA9BH5E[;DAXk3
 !s100 Yf?R5j_^e@1K:dlbBOAMW2
 R8
 32
-R64
+R66
 !i10b 1
-R65
+R67
+R355
 R356
-R357
 !i113 1
 R13
 R14
 Eregister_5bit
-Z358 w1481138811
+Z357 w1481138811
 R3
 R4
 R5
-Z359 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd
-Z360 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd
+Z358 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd
+Z359 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd
 l0
 L5
 VFGWo2[^MI]e_X4;3z_`853
 !s100 7QVM82^Bc5bMj8IfX75Hb1
 R8
 32
-R181
+R184
 !i10b 1
-R182
-Z361 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd|
-Z362 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd|
+R185
+Z360 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd|
+Z361 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd|
 !i113 1
 R13
 R14
@@ -3098,32 +3141,32 @@ VmhN;cTh6:8I2SPk=g^VL_1
 !s100 b]S[03JX<dU`JXQa;5FN[2
 R8
 32
-R181
+R184
 !i10b 1
-R182
+R185
+R360
 R361
-R362
 !i113 1
 R13
 R14
 Eregister_6bit
-Z363 w1481138886
+Z362 w1481138886
 R3
 R4
 R5
-Z364 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd
-Z365 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd
+Z363 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd
+Z364 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd
 l0
 L6
 Vf73HT`]ao<m@;3Bdl>gec0
 !s100 9=JS5jFPck59e_1SFPC>E0
 R8
 32
-R181
+R184
 !i10b 1
-R182
-Z366 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd|
-Z367 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd|
+R185
+Z365 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd|
+Z366 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd|
 !i113 1
 R13
 R14
@@ -3137,21 +3180,21 @@ VV8C@4<CHEgVjn^[UbYBQN2
 !s100 :QZfG?Dn8:0geQMEjg]j52
 R8
 32
-R181
+R184
 !i10b 1
-R182
+R185
+R365
 R366
-R367
 !i113 1
 R13
 R14
 Eregister_8bit
-Z368 w1481139072
+Z367 w1481139072
 R3
 R4
 R5
-Z369 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd
-Z370 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd
+Z368 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd
+Z369 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd
 l0
 L7
 VOYH;Vj3L370m?T?CYYmmM1
@@ -3160,9 +3203,9 @@ R8
 32
 R9
 !i10b 1
-R182
-Z371 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd|
-Z372 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd|
+R10
+Z370 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd|
+Z371 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd|
 !i113 1
 R13
 R14
@@ -3178,9 +3221,9 @@ R8
 32
 R9
 !i10b 1
-R182
+R10
+R370
 R371
-R372
 !i113 1
 R13
 R14
@@ -3229,34 +3272,34 @@ R13
 R14
 Esram
 R15
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 R5
-Z373 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd
-Z374 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd
+Z372 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd
+Z373 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd
 l0
 L13
 VkYO43n9:faJ:CBjXEWnW92
 !s100 dFa2^0bCm0FVM`Q9B=_f60
 R8
 32
-R295
-!i10b 1
 R296
-Z375 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd|
-Z376 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd|
+!i10b 1
+R301
+Z374 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd|
+Z375 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 DEx4 work 4 sram 0 22 kYO43n9:faJ:CBjXEWnW92
@@ -3266,44 +3309,122 @@ V^0;gN<37K`3bCTekE4U040
 !s100 ;NlLnEhi3^n7W2I^9UJ2d3
 R8
 32
-R295
-!i10b 1
 R296
+!i10b 1
+R301
+R374
 R375
-R376
+!i113 1
+R13
+R14
+Estall_unit
+Z376 w1481223327
+R3
+R4
+R5
+Z377 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit.vhd
+Z378 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit.vhd
+l0
+L5
+V5X9HI`5KXMzi]aXl4N1<S0
+!s100 7Z]7eWO0E[aTEdXf?YRTW3
+R8
+32
+R244
+!i10b 1
+R245
+Z379 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit.vhd|
+Z380 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit.vhd|
+!i113 1
+R13
+R14
+Astruct
+R3
+R4
+DEx4 work 10 stall_unit 0 22 5X9HI`5KXMzi]aXl4N1<S0
+l74
+L13
+VF?4Aa=WBX=GO7@K@iMlL>2
+!s100 lneVPzoZLn9`ik478T4fA1
+R8
+32
+R244
+!i10b 1
+R245
+R379
+R380
+!i113 1
+R13
+R14
+Estall_unit_tb
+Z381 w1481218558
+R3
+R4
+R5
+Z382 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit_tb.vhd
+Z383 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit_tb.vhd
+l0
+L4
+VCd09cL[_B_klK2A4]GHYO3
+!s100 XXC=?dV0FfCcBF<RDMOIj1
+R8
+32
+R244
+!i10b 1
+R245
+Z384 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit_tb.vhd|
+Z385 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit_tb.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 13 stall_unit_tb 0 22 Cd09cL[_B_klK2A4]GHYO3
+l21
+L7
+VYaBBFm2VlT[Tc9VV7][1Z0
+!s100 L38BBnW164RUXnZf`_khP3
+R8
+32
+R244
+!i10b 1
+R245
+R384
+R385
 !i113 1
 R13
 R14
 Esyncram
 R15
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 R5
-Z377 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd
-Z378 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd
+Z386 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd
+Z387 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd
 l0
 L12
 V^oKZlCC>5nDIbLS?hF0oK1
 !s100 aFnLlL1@m415d6em?MG^21
 R8
 32
-R295
-!i10b 1
 R296
-Z379 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd|
-Z380 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd|
+!i10b 1
+R301
+Z388 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd|
+Z389 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/syncram.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R82
-R113
+R83
 R114
 R115
+R116
 R3
 R4
 DEx4 work 7 syncram 0 22 ^oKZlCC>5nDIbLS?hF0oK1
@@ -3313,11 +3434,11 @@ VN9RT_3DlYGYVdHG8IL>oE0
 !s100 W:<cVUTVPgIfz60fOOgQ20
 R8
 32
-R295
-!i10b 1
 R296
-R379
-R380
+!i10b 1
+R301
+R388
+R389
 !i113 1
 R13
 R14
@@ -3326,19 +3447,19 @@ R15
 R3
 R4
 R5
-Z381 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd
-Z382 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd
+Z390 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd
+Z391 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd
 l0
 L5
 VSkAM4LC5jjOb>cOBmH16N3
 !s100 VMF9C>DP[5;VOiN5[aESd3
 R8
 32
-R295
-!i10b 1
 R296
-Z383 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd|
-Z384 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd|
+!i10b 1
+R301
+Z392 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd|
+Z393 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd|
 !i113 1
 R13
 R14
@@ -3352,11 +3473,11 @@ VEeESXJEj?UHH;?^ZBRL:X1
 !s100 ]_>oDFZN:PJ[HJie3IcK81
 R8
 32
-R295
-!i10b 1
 R296
-R383
-R384
+!i10b 1
+R301
+R392
+R393
 !i113 1
 R13
 R14
@@ -3365,19 +3486,19 @@ R15
 R3
 R4
 R5
-Z385 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd
-Z386 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd
+Z394 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd
+Z395 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd
 l0
 L5
 V^Z?BJfH6^JS:UFW1^7C;m0
 !s100 7TK64^z14nVXPK]cWgS3=0
 R8
 32
-R295
-!i10b 1
 R296
-Z387 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd|
-Z388 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd|
+!i10b 1
+R301
+Z396 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd|
+Z397 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -3391,11 +3512,11 @@ VI^k384:m]m;TG3o=M60BK2
 !s100 l]IKGhY:hL2aDUPV;>SB?0
 R8
 32
-R295
-!i10b 1
 R296
-R387
-R388
+!i10b 1
+R301
+R396
+R397
 !i113 1
 R13
 R14
@@ -3404,19 +3525,19 @@ R15
 R3
 R4
 R5
-Z389 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd
-Z390 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd
+Z398 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd
+Z399 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd
 l0
 L5
 V9d;XM@:VNF;dehUhC@>`f2
 !s100 UCY45ZALOU6@I^4jz3eW33
 R8
 32
-R295
+R125
 !i10b 1
-R296
-Z391 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd|
-Z392 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd|
+R126
+Z400 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd|
+Z401 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -3430,11 +3551,11 @@ VfUU]fMXJ<1MjjDl4G@Zk;0
 !s100 dDail5hL?0zna@N:=D@8b2
 R8
 32
-R295
+R125
 !i10b 1
-R296
-R391
-R392
+R126
+R400
+R401
 !i113 1
 R13
 R14
@@ -3443,19 +3564,19 @@ R15
 R3
 R4
 R5
-Z393 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd
-Z394 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd
+Z402 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd
+Z403 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd
 l0
 L5
 VXfi;?@UlcoZP:NR@K:Aj<3
 !s100 K_6H3f?zAK@4`dnkC2j[K2
 R8
 32
-R123
+R125
 !i10b 1
-R124
-Z395 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd|
-Z396 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd|
+R126
+Z404 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd|
+Z405 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd|
 !i113 1
 R13
 R14
@@ -3469,11 +3590,11 @@ VRU_jc^QhPnJ8P5c[a<JdV0
 !s100 e;mL^F4ENl;O2f_Ae@3MU2
 R8
 32
-R123
+R125
 !i10b 1
-R124
-R395
-R396
+R126
+R404
+R405
 !i113 1
 R13
 R14
@@ -3482,19 +3603,19 @@ R0
 R3
 R4
 R5
-Z397 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd
-Z398 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd
+Z406 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd
+Z407 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd
 l0
 L5
 Vz8:HQR0Of]FT`:B]@iOgb2
 !s100 Viz<CQSfe^Vb0Wa@h?V4m2
 R8
 32
-Z399 !s110 1481162477
+R72
 !i10b 1
-Z400 !s108 1481162477.000000
-Z401 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd|
-Z402 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd|
+R191
+Z408 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd|
+Z409 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd|
 !i113 1
 R13
 R14
@@ -3508,11 +3629,11 @@ Vz=kF>2JgCOAS[XmbGn3^C2
 !s100 eJX_V[dzg`3KA1^7Ua4Q62
 R8
 32
-R399
+R72
 !i10b 1
-R400
-R401
-R402
+R191
+R408
+R409
 !i113 1
 R13
 R14
@@ -3521,19 +3642,19 @@ R15
 R3
 R4
 R5
-Z403 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd
-Z404 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd
+Z410 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd
+Z411 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd
 l0
 L5
 Vi2PW719XI@e07?_cNTY[63
 !s100 IY:zIdH0EdL@PUV4ISe5M0
 R8
 32
-R123
+R125
 !i10b 1
-R124
-Z405 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd|
-Z406 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd|
+R126
+Z412 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd|
+Z413 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -3547,11 +3668,11 @@ VFTG5z>]F8fBK_l43JQgDe1
 !s100 [@^nmEj?djZ;8jS41JD]@3
 R8
 32
-R123
+R125
 !i10b 1
-R124
-R405
-R406
+R126
+R412
+R413
 !i113 1
 R13
 R14
@@ -3560,19 +3681,19 @@ R15
 R3
 R4
 R5
-Z407 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd
-Z408 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd
+Z414 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd
+Z415 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd
 l0
 L5
 VeZIG0R@6k_IEUQON=FkkO0
 !s100 LPoPXbzH8=CBB]^6S5Unf1
 R8
 32
-R123
+R125
 !i10b 1
-R124
-Z409 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd|
-Z410 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd|
+R126
+Z416 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd|
+Z417 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -3586,34 +3707,34 @@ V^jgPP7S:i7e_3797[N^zg1
 !s100 29oXRe`]fm02Bce^Do[3m2
 R8
 32
-R123
+R125
 !i10b 1
-R124
-R409
-R410
+R126
+R416
+R417
 !i113 1
 R13
 R14
 Ezero_checker
-R133
+R134
 R1
 R2
 R3
 R4
 R5
-Z411 8C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/zero_checker.vhd
-Z412 FC:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/zero_checker.vhd
+Z418 8C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\zero_checker.vhd
+Z419 FC:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\zero_checker.vhd
 l0
 L6
 VhSG_T]BWDC`f<YzCESmPI3
 !s100 dim<595_laEN<E4jigkoP1
 R8
 32
-Z413 !s110 1481171552
+R72
 !i10b 1
-Z414 !s108 1481171552.000000
-Z415 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/zero_checker.vhd|
-Z416 !s107 C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/zero_checker.vhd|
+R191
+Z420 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\zero_checker.vhd|
+Z421 !s107 C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\zero_checker.vhd|
 !i113 1
 R13
 R14
@@ -3629,11 +3750,11 @@ VYP3_1Do=>_@?Hm@LfTE4B2
 !s100 2KH6H=`SZec44LP_kFH=H2
 R8
 32
-R413
+R72
 !i10b 1
-R414
-R415
-R416
+R191
+R420
+R421
 !i113 1
 R13
 R14
