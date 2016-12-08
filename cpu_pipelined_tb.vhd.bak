@@ -5,14 +5,14 @@ use work.eecs361.all;
 use work.eecs361_gates.all;
 
 
-entity CPU_tb_branch is
+entity CPU_pipelined_tb is
 end entity;
 
-architecture behav of CPU_tb_branch is
+architecture behav of CPU_pipelined_tb is
 
 
 
-component CPU is
+component CPU_pipelined is
 	generic (
 		data_file : string
   	);
@@ -22,12 +22,12 @@ end component;
 
 
 signal clk_tb, pc_init_tb : std_logic;
-signal mem_file : string (40 downto 1);
+signal mem_file : string (26 downto 1);
 
 
 begin
 
-dut : CPU generic map (data_file => "bills_branch.dat") port map(clk_tb, pc_init_tb);
+dut : CPU_pipelined generic map (data_file => "bills_branch.dat") port map(clk_tb, pc_init_tb);
 
 testbench: process begin
 
@@ -35,35 +35,35 @@ clk_tb <= '0';
 
 pc_init_tb <='1';
 
-wait for 2 ns;
+wait for 200 ps;
 
 clk_tb <= '1';
 
 
 
-wait for 2 ns;
+wait for 200 ps;
 
 clk_tb <= '0';
 
 
-wait for 2 ns;
-
-clk_tb <= '1';
+wait for 200 ps;
 pc_init_tb <= '0';
+clk_tb <= '1';
 
-wait for 2 ns;
+
+wait for 200 ps;
 
 
 G0: for i in 0 to 100 loop
 
 clk_tb <= '0';
 
-wait for 2 ns;
+wait for 200 ps;
 
 clk_tb <= '1';
 
 
-wait for 2 ns;
+wait for 200 ps;
 
 
 end loop;

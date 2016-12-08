@@ -27,7 +27,7 @@ signal mem_file : string (40 downto 1);
 
 begin
 
-dut : CPU generic map (data_file => "bills_branch.dat") port map(clk_tb, pc_init_tb);
+dut : CPU generic map (data_file => "unsigned_sum.dat") port map(clk_tb, pc_init_tb);
 
 testbench: process begin
 
