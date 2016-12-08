@@ -29,7 +29,7 @@ signal int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12
 signal equal1, equal2, equal3, equal4: std_logic_vector(4 downto 0);
 signal e1, e2, e3: std_logic;
 signal m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14 : std_logic;
-signal temp1, temp2 : std_logic_vector(1 downto 0);
+signal temp1, temp2, temp12, temp22 : std_logic_vector(1 downto 0);
 
 
 begin
@@ -89,10 +89,16 @@ begin
 	muxA1: mux_n generic map(n => 2)
 		port map(e2, "00", "10", temp1);
 	muxA2: mux_n generic map(n => 2)
-		port map(m7, temp1, "01", forwardA);
+		port map(m7, temp1, "01", temp12);
 	muxB1: mux_n generic map(n => 2)
 		port map(e3, "00", "10", temp2);
 	muxB2: mux_n generic map(n => 2)
-		port map(m14, temp2, "01", forwardB);
+		port map(m14, temp2, "01", temp22);
+
+	muxO1: mux_n generic map(n => 2)
+		port map(int1, "00", temp12, forwardA);
+	muxO2: mux_n generic map(n => 2)
+		port map(int10, "00", temp22, forwardB);
+
 
 end structure;
