@@ -4,10 +4,10 @@ use ieee.std_logic_1164.all;
 entity Reg_EX_MEM is
 port(
 clk : in std_logic;
-busB_in, busW_in : std_logic_vector (31 downto 0);
+busB_in : std_logic_vector (31 downto 0);
 ALUresult_in : in std_logic_vector (31 downto 0);
 control_in : in std_logic_vector (7 downto 0);
-busB_out, busW_out: out std_logic_vector (31 downto 0);
+busB_out: out std_logic_vector (31 downto 0);
 ALUresult_out : out std_logic_vector (31 downto 0);
 control_out : out std_logic_vector (7 downto 0));
 end entity;
@@ -65,7 +65,6 @@ C0: not_gate port map (clk, clk_not);
 
 R0: register_8bit port map (clk, clk_not, control_in, control_out);
 R1: register_32bit port map(clk, clk_not, busB_in, busB_out);
-R2: register_32bit port map(clk, clk_not, busW_in, busW_out);
 R3: register_32bit port map(clk, clk_not, ALUresult_in, ALUresult_out);
 
 
