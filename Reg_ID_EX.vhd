@@ -13,7 +13,9 @@ imm16_out : out std_logic_vector(15 downto 0);
 control_out : out std_logic_vector (7 downto 0);
 ALUop_out :out std_logic_vector (5 downto 0);
 ID_busA, ID_busB : in std_logic_vector (31 downto 0);
-EX_busA, EX_busB : out std_logic_vector(31 downto 0));
+EX_busA, EX_busB : out std_logic_vector(31 downto 0);
+instruction_in : in std_logic_vector (31 downto 0);
+instruction_out : out std_logic_vector (31 downto 0));
 end entity;
 
 
@@ -72,8 +74,9 @@ R0: register_8bit port map (clk, clk_not, control_in, control_out);
 R4: register_16bit port map (clk, clk_not, imm16_in, imm16_out);
 R5: register_5bit port map(clk, clk_not, shamt_in, shamt_out);
 R6: register_6bit port map(clk, clk_not, ALUop_in, ALUop_out);
-
 R8: register_32bit port map(clk, clk_not, ID_busB, EX_busB);
+I_reg: register_32bit port map (clk, clk_not, instruction_in, instruction_out);
+
 
 end struct;
 

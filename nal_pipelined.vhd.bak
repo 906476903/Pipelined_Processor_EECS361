@@ -195,7 +195,7 @@ XOR2: xor_gate port map(sel_counter(1), sel_counter(0), stall_sel);
 
 mux4: mux port map(stall_last, stall_sel, '1', stall);
 
-mux3: mux_32_4_1 port map(sel_counter, counter_out, X"00000003", counter_last) ;
+mux3: mux_32 port map(stall_sel, counter_out, X"00000003", counter_last) ;
 
 ALUcounter: alu_32 port map(counter_last, X"00000001","100010", "XXXXX", counter_out, carryout1, zero1);
 

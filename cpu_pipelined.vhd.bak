@@ -8,7 +8,7 @@ entity CPU_pipelined is
 		data_file : string
   	);
 port (clk : in std_logic;
-      pc_init, counter : in std_logic);
+      pc_init: in std_logic);
 end CPU_pipelined;
 
 architecture structure of CPU_pipelined is
@@ -146,7 +146,9 @@ imm16_out : out std_logic_vector(15 downto 0);
 control_out : out std_logic_vector (7 downto 0);
 ALUop_out : out std_logic_vector (5 downto 0);
 ID_busA, ID_busB : in std_logic_vector (31 downto 0);
-EX_busA, EX_busB : out std_logic_vector(31 downto 0));
+EX_busA, EX_busB : out std_logic_vector(31 downto 0);
+instruction_in : in std_logic_vector (31 downto 0);
+instruction_out : out std_logic_vector (31 downto 0));
 end component;
 
 component Reg_EX_MEM is
@@ -157,7 +159,9 @@ ALUresult_in : in std_logic_vector (31 downto 0);
 control_in : in std_logic_vector (7 downto 0);
 busB_out: out std_logic_vector (31 downto 0);
 ALUresult_out : out std_logic_vector (31 downto 0);
-control_out : out std_logic_vector (7 downto 0));
+control_out : out std_logic_vector (7 downto 0);
+instruction_in : in std_logic_vector (31 downto 0);
+instruction_out : out std_logic_vector (31 downto 0));
 end component;
 
 component Reg_MEM_WB is
@@ -166,7 +170,16 @@ clk : in std_logic;
 dout_in, ALUresult_in: in std_logic_vector (31 downto 0);
 control_in : std_logic_vector (7 downto 0);
 dout_out, ALUresult_out : out std_logic_vector (31 downto 0);
-control_out : out std_logic_vector (7 downto 0));
+control_out : out std_logic_vector (7 downto 0);
+instruction_in : in std_logic_vector (31 downto 0);
+instruction_out : out std_logic_vector (31 downto 0));
+end component;
+
+component forwarding_unit is
+	port (id_ex_rs, id_ex_rt, ex_mem_rd, mem_wb_rd : in std_logic_vector (4 downto 0);
+		ex_mem_we, mem_wb_we : in std_logic;
+		forwardA, forwardB : out std_logic_vector(1 downto 0)
+	);
 end component;
 
 -------- IFetch Stage Signals ------------------------------------
@@ -174,7 +187,6 @@ signal clk_not : std_logic;
 signal pc_reg, pc_nal, pc_reg_temp, IF_PC: std_logic_vector (31 downto 0);
 signal pc_next_temp, pc_next, pc_four : std_logic_vector(31 downto 0);
 signal IF_instruction, ID_instruction : std_logic_vector (31 downto 0);
-signal counter_nal : std_logic_vector (1 downto 0);
 
 
 
@@ -187,6 +199,7 @@ signal imm16_in, imm16_out : std_logic_vector (15 downto 0);
 signal ID_control, control_temp : std_logic_vector(7 downto 0);
 
 
+
  ----------- EX Stage SIGNALS ---------------
 signal ID_ALUop, EX_ALUop, ALUop_temp: std_logic_vector(5 downto 0);
 signal EX_control : std_logic_vector (7 downto 0);
@@ -195,6 +208,7 @@ signal carryout, overflow, zero : std_logic;
 signal  ID_busA, ID_busA_NAL, EX_busA, instrExt, aluB : std_logic_vector (31 downto 0);
 signal  MEM_busW : std_logic_vector (31 downto 0);
 signal EX_ALUresult, MEM_ALUresult : std_logic_vector (31 downto 0);
+signal EX_instruction : std_logic_vector (31 downto 0);
 
 ------------------------ Mem Stage SIGNALS -------------------------------------
 
@@ -203,11 +217,15 @@ signal MEM_control : std_logic_vector (7 downto 0);
 signal MEM_dout, WB_din : std_logic_vector(31 downto 0);
 signal WB_busW : std_logic_vector(31 downto 0);
 signal MEM_busB : std_logic_vector (31 downto 0);
+signal MEM_instruction : std_logic_vector (31 downto 0);
 
 
 -----------WB STAGE SIGNALS ---------------------------
 signal WB_control : std_logic_vector (7 downto 0);
 signal WB_ALUresult : std_logic_vector (31 downto 0);
+signal WB_instruction : std_logic_vector (31 downto 0);
+
+signal forwardA, forwardB : std_logic_vector(1 downto 0);
 
 begin
 
@@ -222,7 +240,7 @@ begin
 
 	PC_Initialization: mux_32 port map(pc_init, pc_next, X"00400020", pc_reg_temp); -- choose between X"00400020" or calcualted next PC
 
-	M1: mux_32 port map(counter, pc_reg_temp, X"00400024", pc_reg);
+	M1: mux_32 port map(pc_init, pc_reg_temp, X"00400024", pc_reg);
 
 	PC_Register : register_32bit port map(clk, '1', pc_reg, IF_pc);-- register latch to hold next pc
 
@@ -255,13 +273,16 @@ begin
 
 	ID_busA_NAL <= ID_busA;
 
-	NextAddress: NAL_pipelined port map(IF_pc, ID_instruction, ID_busA_NAL, ID_busB, pc_next_temp, pc_init, ID_control); -- next address logic
+	NextAddress: NAL_pipelined port map(IF_pc, ID_instruction, ID_busA_NAL, ID_busB, pc_next_temp, pc_init); -- next address logic
 
 	
 
 
 -- END OF REG/DEC PHASE --
-	R1: Reg_ID_EX port map(clk_not, shamt_in, imm16_in, ID_control, ID_ALUop, shamt_out, imm16_out, EX_control, EX_ALUop, ID_busA, ID_busB, EX_busA, EX_busB);
+	R1: Reg_ID_EX port map(clk_not, shamt_in, imm16_in, ID_control, ID_ALUop, shamt_out, imm16_out, EX_control, EX_ALUop, ID_busA, ID_busB, EX_busA, EX_busB, ID_instruction, EX_instruction);
+
+	FORWARD: forwarding_unit port map(Rs_in, Rt_in, EX_instruction(15 downto 11), MEM_instruction(15 downto 11), EX_control(4), MEM_control(4), forwardA, forwardB);
+
 
 
 -- START OF EX PHASE --
@@ -275,7 +296,7 @@ begin
 
 
 -- END OF EX PHASE -- 
-	R2 : Reg_EX_MEM port map (clk_not, EX_busB, EX_ALUresult, EX_control, MEM_busB, MEM_ALUresult, MEM_control);
+	R2 : Reg_EX_MEM port map (clk_not, EX_busB, EX_ALUresult, EX_control, MEM_busB, MEM_ALUresult, MEM_control, EX_instruction, MEM_instruction);
 
 
 -- START OF MEM PHASE --
@@ -286,7 +307,7 @@ begin
 
 -- END OF MEM PHASE 
 
-	R3: Reg_MEM_WB port map (clk_not, MEM_dout, MEM_ALUresult, MEM_control, MEM_busW, WB_ALUresult, WB_control);
+	R3: Reg_MEM_WB port map (clk_not, MEM_dout, MEM_ALUresult, MEM_control, MEM_busW, WB_ALUresult, WB_control, MEM_instruction, WB_instruction);
 
 -- START OF WB PHASE --
 
