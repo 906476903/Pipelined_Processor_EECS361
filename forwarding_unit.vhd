@@ -91,32 +91,19 @@ begin
 		port map(m7, "00", "01", temp12);
 
 	muxA2: mux_n generic map(n => 2)
-<<<<<<< HEAD
 		port map(e2, temp12, "10", forwardA);
 
 	
-=======
-		port map(m7, temp1, "01", temp12);
->>>>>>> 0b46af13880a368573c644fd864134064f040678
 	muxB1: mux_n generic map(n => 2)
 		port map(m14, "00", "01", temp22);
 
 	muxB2: mux_n generic map(n => 2)
-<<<<<<< HEAD
 		port map(e3, temp22, "10", forwardB);
 
 	--muxO1: mux_n generic map(n => 2)
 	--port map(int1, "00", temp12, forwardA);
 	--muxO2: mux_n generic map(n => 2)
 		--port map(int10, "00", temp22, forwardB);
-=======
-		port map(m14, temp2, "01", temp22);
-
-	muxO1: mux_n generic map(n => 2)
-		port map(int1, "00", temp12, forwardA);
-	muxO2: mux_n generic map(n => 2)
-		port map(int10, "00", temp22, forwardB);
->>>>>>> 0b46af13880a368573c644fd864134064f040678
 
 
 end structure;
