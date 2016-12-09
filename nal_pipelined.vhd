@@ -168,7 +168,7 @@ A4: xor_gate_3 port map(lower_op, "000", bgtz_temp);
 A5: and_gate_3_1 port map(bgtz_temp, bgtz); -- check if bgtz
 
 
-M0: mux_32 port map(beq, pc_four, pc_branch,mux_out2 );
+M0: mux_32 port map(beq, pc_four, pc_branch, mux_out2 );
 M1: mux_32 port map(bne, pc_four, pc_branch,  mux_out);
 M2: mux_32 port map(bgtz, pc_four, pc_branch, mux_out1 );
 
@@ -183,24 +183,6 @@ C5: mux_32 port map(pc_trigger, pc_out_temp1, X"00400024", pc_out_temp2);
 
 C7: mux_32 port map(stall, pc_out_temp2, pc_in, pc_out);
 
------- add HW Stall logic, check if branch then delay by 3, check if load-r_type then delay by 1  -------
------- set pc_out to pc_in  for number of cycles necessary
------ branches have opcode(2) = 1, loads have opcode(5) = 1 and opcode(2) = 0 -----------------
-
---sel_counter(1) <= instruction (31);
---sel_counter(0) <= instruction (28);
-
---XOR2: xor_gate port map(sel_counter(1), sel_counter(0), stall_sel);
-
---mux4: mux port map(stall_last, stall_sel, '1', stall);
-
---mux3: mux_32 port map(stall_sel, counter_out, X"00000003", counter_last) ;
-
---ALUcounter: alu_32 port map(counter_last, X"00000001","100010", "XXXXX", counter_out, carryout1, zero1);
-
-
---mux2: mux_4_1 port map(counter_out(1 downto 0),  '0', '1', '1', '1', stall_last);    -- if counter is zero set stall trigger back to zero
---mux1: mux_32 port map(zero1, pc_in, pc_out_temp2, pc_out);  -- if counter is zero then output the next pc, if not then hold pc_in
 
 
 end struct;

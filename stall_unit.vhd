@@ -59,7 +59,7 @@ port(x : in std_logic;
 z : out std_logic);
 end component;
 
-component xor_gate is
+component or_gate is
 port (x,y : in std_logic;
 z : out std_logic);
 end component;
@@ -74,9 +74,10 @@ signal op_in, op_last : std_logic_vector(5 downto 0);
 begin
 
 sel(1) <= instruction(31);
-sel(0) <= instruction(28);
+--sel(0) <= instruction(28);
+sel(0) <= '0';
 op_in <= instruction(31 downto 26);
-XOR0: xor_gate port map (sel(1), sel(0), stall_sel);
+OR0: or_gate port map (sel(1), sel(0), stall_sel);
 
 mux0: mux port map(stall_sel, '0', '1', stall_temp);
 mux1: mux port map(pc_init, stall_temp, '0', stall);

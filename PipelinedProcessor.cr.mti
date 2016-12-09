@@ -1,4 +1,12 @@
-{{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd}
+{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg_ID_EX
+-- Compiling architecture struct of Reg_ID_EX
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 Start time: 13:53:34 on Dec 07,2016
 vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate.vhd 
@@ -10,21 +18,13 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Reg_ID_EX
--- Compiling architecture struct of Reg_ID_EX
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/stall_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity stall_unit
--- Compiling architecture struct of stall_unit
+-- Loading package eecs361_gates
+-- Compiling package eecs361
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -38,36 +38,40 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:31 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/stall_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Compiling package eecs361
+-- Compiling entity stall_unit
+-- Compiling architecture struct of stall_unit
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:35 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity Reg_IF_ID
 -- Compiling architecture struct of Reg_IF_ID
-End time: 13:53:35 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:34 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity xnor_gate_32
--- Compiling architecture dataflow of xnor_gate_32
-End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:30 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+End time: 13:53:30 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd}
@@ -86,33 +90,29 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:30 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd 
+Start time: 13:53:34 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity and_gate
--- Compiling architecture dataflow of and_gate
-End time: 13:53:30 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity and_gate
--- Compiling architecture dataflow of and_gate
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:35 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_IF_ID.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity Reg_IF_ID
 -- Compiling architecture struct of Reg_IF_ID
+End time: 13:53:35 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -504,16 +504,18 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity mux_6
 -- Compiling architecture structural of mux_6
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:32 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd 
+Start time: 13:53:43 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nor_gate_n
--- Compiling architecture dataflow of nor_gate_n
-End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity NAL_tb
+-- Compiling architecture behav of NAL_tb
+End time: 13:53:43 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/cpu_pipelined.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/cpu_pipelined.vhd}
@@ -530,19 +532,27 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:43 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd 
+Start time: 13:53:32 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity NAL_tb
--- Compiling architecture behav of NAL_tb
-End time: 13:53:43 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Compiling entity mux_8
+-- Compiling architecture structural of mux_8
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -556,27 +566,21 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:40 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux_8
--- Compiling architecture structural of mux_8
+-- Compiling entity mux32_32_1
+-- Compiling architecture structural of mux32_32_1
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:33 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity not_gate_n
--- Compiling architecture dataflow of not_gate_n
-End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Compiling entity register_8bit
+-- Compiling architecture struct of register_8bit
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -590,21 +594,25 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:38 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_8bit.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:33 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_n.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity register_8bit
--- Compiling architecture struct of register_8bit
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
+End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux32_32_1
--- Compiling architecture structural of mux32_32_1
+-- Compiling entity xor_gate_3
+-- Compiling architecture dataflow of xor_gate_3
 
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -614,13 +622,13 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity nor_gate
 -- Compiling architecture dataflow of nor_gate
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/xor_gate_3.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity xor_gate_3
--- Compiling architecture dataflow of xor_gate_3
+-- Compiling entity register_1bit
+-- Compiling architecture struct of register_1bit
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -633,24 +641,6 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 -- Compiling architecture struct of register_1bit
 End time: 13:53:40 on Dec 07,2016, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity register_1bit
--- Compiling architecture struct of register_1bit
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/cpu_pipelined_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity CPU_pipelined_tb
--- Compiling architecture behav of CPU_pipelined_tb
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -684,15 +674,23 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity Reg_EX_MEM
 -- Compiling architecture struct of Reg_EX_MEM
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/nal_pipelined_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\NAL_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity NAL_pipelined_tb
--- Compiling architecture behav of NAL_pipelined_tb
+-- Compiling entity NAL_tb
+-- Compiling architecture behav of NAL_tb
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -706,23 +704,39 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_n.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate_n
--- Compiling architecture dataflow of nor_gate_n
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/NAL_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\NAL_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/nal_pipelined_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity NAL_tb
--- Compiling architecture behav of NAL_tb
+-- Compiling entity NAL_pipelined_tb
+-- Compiling architecture behav of NAL_pipelined_tb
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_32bit_32_tb
+-- Compiling architecture behav of register_32bit_32_tb
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32_4_1
+-- Compiling architecture structural of mux32_4_1
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -738,29 +752,23 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:43 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity xor_gate_32
--- Compiling architecture dataflow of xor_gate_32
+-- Compiling entity mux_32_161_tb
+-- Compiling architecture behav of mux_32_161_tb
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux32_4_1
--- Compiling architecture structural of mux32_4_1
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity register_32bit_32_tb
--- Compiling architecture behav of register_32bit_32_tb
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -778,23 +786,13 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:38 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux_32
--- Compiling architecture structural of mux_32
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_32_161_tb
--- Compiling architecture behav of mux_32_161_tb
+-- Compiling entity extender_tb
+-- Compiling architecture behav of extender_tb
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -808,25 +806,23 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:31 on Dec 07,2016, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_5.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity extender_tb
--- Compiling architecture behav of extender_tb
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_5
+-- Compiling architecture structural of mux_5
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:37 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity dec_32_tb
--- Compiling architecture behav of dec_32_tb
-End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/and_gate_3_1.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/and_gate_3_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -840,23 +836,25 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:36 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:37 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity or_gate
--- Compiling architecture dataflow of or_gate
+-- Compiling entity dec_32_tb
+-- Compiling architecture behav of dec_32_tb
+End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux_5
--- Compiling architecture structural of mux_5
+-- Compiling entity mux_32_4_1_tb
+-- Compiling architecture behav of mux_32_4_1_tb
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -869,46 +867,6 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 -- Compiling package eecs361
 End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_32_4_1_tb
--- Compiling architecture behav of mux_32_4_1_tb
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:39 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_32_32_1_tb
--- Compiling architecture behav of mux_32_32_1_tb
-End time: 13:53:39 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package std_logic_textio
--- Loading package NUMERIC_STD
--- Compiling entity sram
--- Compiling architecture behavioral of sram
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xnor_gate_32
--- Compiling architecture dataflow of xnor_gate_32
 
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/alu32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/alu32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -928,6 +886,38 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity alu_32
 -- Compiling architecture structure of alu_32
 
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/sram.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:39 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_32_32_1_tb
+-- Compiling architecture behav of mux_32_32_1_tb
+End time: 13:53:39 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_6bit.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
@@ -936,17 +926,23 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity register_6bit
 -- Compiling architecture struct of register_6bit
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:32 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nand_gate_32
--- Compiling architecture dataflow of nand_gate_32
-End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity CPU_tb_sort
+-- Compiling architecture behav of CPU_tb_sort
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_1bit_tb
+-- Compiling architecture behav of register_1bit_tb
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/next_address_logic.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/next_address_logic.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -962,33 +958,17 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:43 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_1bit_tb.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:32 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity register_1bit_tb
--- Compiling architecture behav of register_1bit_tb
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/sort_corrected_test.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity CPU_tb_sort
--- Compiling architecture behav of CPU_tb_sort
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/nal_pipelined.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity NAL_pipelined
--- Compiling architecture struct of NAL_pipelined
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1002,6 +982,16 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:30 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/nal_pipelined.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\nal_pipelined.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity NAL_pipelined
+-- Compiling architecture struct of NAL_pipelined
+
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_Control.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 Start time: 13:53:37 on Dec 07,2016
@@ -1014,21 +1004,13 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nand_gate
--- Compiling architecture dataflow of nand_gate
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity not_gate
--- Compiling architecture dataflow of not_gate
+-- Compiling entity register_32bit_tb
+-- Compiling architecture behav of register_32bit_tb
 
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1040,13 +1022,21 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity CPU_tb
 -- Compiling architecture behav of CPU_tb
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity register_32bit_tb
--- Compiling architecture behav of register_32bit_tb
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
 
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_81.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1055,6 +1045,68 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package std_logic_1164
 -- Compiling entity mux32_81
 -- Compiling architecture structural of mux32_81
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_5bit
+-- Compiling architecture struct of register_5bit
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:42 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_6
+-- Compiling architecture structural of mux_6
+End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:42 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity CPU_tb_branch
+-- Compiling architecture behav of CPU_tb_branch
+End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:41 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_16
+-- Compiling architecture structural of mux_16
+End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:37 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extender
+-- Compiling architecture struct of extender
+End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/FETCH_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1072,67 +1124,15 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:38 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/cpu_pipelined.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\cpu_pipelined.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:37 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity extender
--- Compiling architecture struct of extender
-End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:41 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity mux_16
--- Compiling architecture structural of mux_16
-End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:42 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/bill_branch_test.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity CPU_tb_branch
--- Compiling architecture behav of CPU_tb_branch
-End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:42 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_6.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux_6
--- Compiling architecture structural of mux_6
-End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/register_5bit.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity register_5bit
--- Compiling architecture struct of register_5bit
+-- Compiling entity CPU_pipelined
+-- Compiling architecture structure of CPU_pipelined
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1148,17 +1148,13 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:33 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity or_gate_32
 -- Compiling architecture dataflow of or_gate_32
-End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1172,24 +1168,16 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:40 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:33 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity or_gate_32
 -- Compiling architecture dataflow of or_gate_32
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:32 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nand_gate_n
--- Compiling architecture dataflow of nand_gate_n
-End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
+End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Fetch.vhd}
@@ -1204,17 +1192,35 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity fetch
 -- Compiling architecture struct of fetch
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:36 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd 
+Start time: 13:53:32 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_n.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Reg_MEM_WB
--- Compiling architecture struct of Reg_MEM_WB
-End time: 13:53:36 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
+End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/zero_checker.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\zero_checker.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity zero_checker
+-- Compiling architecture structure of zero_checker
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_n.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/nor_gate_32_1.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/nor_gate_32_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1230,34 +1236,16 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:43 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux_n.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:36 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux_n
--- Compiling architecture behavioral of mux_n
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/zero_checker.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\zero_checker.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity zero_checker
--- Compiling architecture structure of zero_checker
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:37 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity extender_tb
--- Compiling architecture behav of extender_tb
-End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity Reg_MEM_WB
+-- Compiling architecture struct of Reg_MEM_WB
+End time: 13:53:36 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit_32.vhd}
@@ -1272,28 +1260,38 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:40 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:35 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd 
+Start time: 13:53:37 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/extender_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Reg_ID_EX
--- Compiling architecture struct of Reg_ID_EX
-End time: 13:53:35 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity extender_tb
+-- Compiling architecture behav of extender_tb
+End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/and_gate_3_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/and_gate_3_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:32 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nand_gate
--- Compiling architecture dataflow of nand_gate
-End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity and_gate_3_1
+-- Compiling architecture struct of and_gate_3_1
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:41 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_5
+-- Compiling architecture structural of mux_5
+End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/cpu_pipelined_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/cpu_pipelined_tb.vhd}
@@ -1310,27 +1308,37 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:41 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_5.vhd 
+Start time: 13:53:32 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux_5
--- Compiling architecture structural of mux_5
-End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/and_gate_3_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/and_gate_3_1.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:35 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_ID_EX.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg_ID_EX
+-- Compiling architecture struct of Reg_ID_EX
+End time: 13:53:35 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity and_gate_3_1
--- Compiling architecture struct of and_gate_3_1
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1344,13 +1352,31 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:38 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity dffr
--- Compiling architecture behavioral of dffr
+-- Compiling entity mux_32_32_1_tb
+-- Compiling architecture behav of mux_32_32_1_tb
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_16
+-- Compiling architecture structural of mux_16
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_EX_MEM.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_EX_MEM.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1364,43 +1390,15 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:35 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate_32
--- Compiling architecture dataflow of nor_gate_32
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_16.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity mux_16
--- Compiling architecture structural of mux_16
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_32_1_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_32_32_1_tb
--- Compiling architecture behav of mux_32_32_1_tb
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:40 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity register_32bit
--- Compiling architecture struct of register_32bit
-End time: 13:53:40 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Compiling entity CPU_tb_unsigned
+-- Compiling architecture behav of CPU_tb_unsigned
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1416,15 +1414,41 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:43 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/unsigned_sum_test.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:40 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_32bit
+-- Compiling architecture struct of register_32bit
+End time: 13:53:40 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity CPU_tb_unsigned
--- Compiling architecture behav of CPU_tb_unsigned
+-- Compiling entity Decode_tb
+-- Compiling architecture behav of Decode_tb
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_32.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1438,29 +1462,25 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nand_gate_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nand_gate_32
--- Compiling architecture dataflow of nand_gate_32
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/not_gate_32.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:33 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity not_gate_32
--- Compiling architecture dataflow of not_gate_32
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Decode_tb
--- Compiling architecture behav of Decode_tb
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/fetch_pipelined.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1478,25 +1498,23 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:35 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:33 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate_n.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity or_gate_n
--- Compiling architecture dataflow of or_gate_n
-End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Compiling entity Reg_MEM_WB
+-- Compiling architecture struct of Reg_MEM_WB
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/nor_gate_32_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity xor_gate_n
--- Compiling architecture dataflow of xor_gate_n
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity nor_gate_32_1
+-- Compiling architecture struct of nor_gate_32_1
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1510,32 +1528,6 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/nor_gate_32_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\SingleCycleProcessor\nor_gate_32_1.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity nor_gate_32_1
--- Compiling architecture struct of nor_gate_32_1
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/Reg_MEM_WB.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Reg_MEM_WB
--- Compiling architecture struct of Reg_MEM_WB
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_4_1
--- Compiling architecture structural of mux_4_1
-
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dff.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 Start time: 13:53:31 on Dec 07,2016
@@ -1548,16 +1540,40 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:31 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_4_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:33 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity or_gate
--- Compiling architecture dataflow of or_gate
-End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity mux_4_1
+-- Compiling architecture structural of mux_4_1
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32_161
+-- Compiling architecture structural of mux32_161
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec_32_tb
+-- Compiling architecture behav of dec_32_tb
+
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:39 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32_161
+-- Compiling architecture structural of mux32_161
+End time: 13:53:39 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dec_n.vhd}
@@ -1573,33 +1589,35 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:31 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:39 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd 
+Start time: 13:53:33 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/or_gate.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux32_161
--- Compiling architecture structural of mux32_161
-End time: 13:53:39 on Dec 07,2016, Elapsed time: 0:00:00
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+End time: 13:53:33 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/dec_32_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity dec_32_tb
--- Compiling architecture behav of dec_32_tb
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_161.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux32_161
--- Compiling architecture structural of mux32_161
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1613,36 +1631,6 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 -- Compiling entity mux
 -- Compiling architecture structural of mux
 End time: 13:53:41 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/dffr_a.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity dffr_a
--- Compiling architecture behavioral of dffr_a
-
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/mux.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux
--- Compiling architecture structural of mux
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:32 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate_32
--- Compiling architecture dataflow of nor_gate_32
-End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/alu32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/alu32.vhd}
@@ -1667,6 +1655,26 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:32 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/nor_gate_32.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+End time: 13:53:32 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_32bit
+-- Compiling architecture struct of register_32bit
+
 } {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/cpu.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
@@ -1677,37 +1685,12 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity CPU
 -- Compiling architecture structure of CPU
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/register_32bit.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361_gates.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity register_32bit
--- Compiling architecture struct of register_32bit
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:38 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux32_4_1
--- Compiling architecture structural of mux32_4_1
-End time: 13:53:38 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-Start time: 13:53:37 on Dec 07,2016
-vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Decode_tb
--- Compiling architecture behav of Decode_tb
-End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+-- Compiling package eecs361_gates
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_8.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1723,22 +1706,29 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:42 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361_gates.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/eecs361_gates.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:37 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/Decode_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling package eecs361_gates
+-- Compiling entity Decode_tb
+-- Compiling architecture behav of Decode_tb
+End time: 13:53:37 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd}
+} {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+Start time: 13:53:38 on Dec 07,2016
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/SingleCycleProcessor/mux_32_4_1.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux_2
--- Compiling architecture structural of mux_2
+-- Compiling entity mux32_4_1
+-- Compiling architecture structural of mux32_4_1
+End time: 13:53:38 on Dec 07,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xor_gate_n.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1752,13 +1742,23 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/stall_unit_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit_tb.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/mux_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\mux_2.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity stall_unit_tb
--- Compiling architecture behav of stall_unit_tb
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_2
+-- Compiling architecture structural of mux_2
+
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
 
 } {} {}} {{C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/xnor_gate.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -1772,12 +1772,12 @@ vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Jason/Desktop/Pipel
 End time: 13:53:34 on Dec 07,2016, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/EECS361_Standard_Library/and_gate_32.vhd}
+} {} {}} {C:/Users/Jason/Desktop/Pipelined Processor/Pipelined_Processor_EECS361/stall_unit_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Jason\Desktop\Pipelined Processor\Pipelined_Processor_EECS361\stall_unit_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity and_gate_32
--- Compiling architecture dataflow of and_gate_32
+-- Compiling entity stall_unit_tb
+-- Compiling architecture behav of stall_unit_tb
 
 } {} {}}

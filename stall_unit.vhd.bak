@@ -5,7 +5,8 @@ use ieee.std_logic_1164.all;
 entity stall_unit is 
 port (instruction : in std_logic_vector(31 downto 0);
 control: in std_logic_vector(7 downto 0);
-stall, pc_unit : out std_logic);
+stall : out std_logic;
+pc_init : in std_logic);
 end entity;
 
 
@@ -58,7 +59,7 @@ port(x : in std_logic;
 z : out std_logic);
 end component;
 
-component xor_gate is
+component or_gate is
 port (x,y : in std_logic;
 z : out std_logic);
 end component;
@@ -75,7 +76,7 @@ begin
 sel(1) <= instruction(31);
 sel(0) <= instruction(28);
 op_in <= instruction(31 downto 26);
-XOR0: xor_gate port map (sel(1), sel(0), stall_sel);
+OR0: or_gate port map (sel(1), sel(0), stall_sel);
 
 mux0: mux port map(stall_sel, '0', '1', stall_temp);
 mux1: mux port map(pc_init, stall_temp, '0', stall);

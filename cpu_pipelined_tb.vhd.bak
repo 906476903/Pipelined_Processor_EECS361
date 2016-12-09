@@ -26,7 +26,7 @@ signal mem_file : string (26 downto 1);
 
 begin
 
-dut : CPU_pipelined generic map (data_file => "bills_branch.dat") port map(clk_tb, pc_init_tb,pc_trigger_tb,pc_stall_tb, pc_forward_tb, pc_mem_stall_tb);
+dut : CPU_pipelined generic map (data_file => "sort_corrected_branch.dat") port map(clk_tb, pc_init_tb,pc_trigger_tb,pc_stall_tb, pc_forward_tb, pc_mem_stall_tb);
 
 testbench: process begin
 
@@ -64,6 +64,15 @@ clk_tb <= '1';
 
 wait for 200 ps;
 pc_forward_tb <= '0';
+
+clk_tb <= '0';
+
+wait for 200 ps;
+
+
+clk_tb <= '1';
+
+wait for 200 ps;
 
 clk_tb <= '0';
 

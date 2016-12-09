@@ -26,7 +26,10 @@ dut : NAL_pipelined port map (pc_in_tb, instruction_tb, busA_tb, busB_tb, pc_out
 testbench : process begin
 
 stall_tb <= '0';
+pc_trigger_tb <= '0';
 pc_in_tb <= X"00400020";
+busA_tb <= X"00000001";
+busB_tb <= X"00000001";
 instruction_tb <= X"1cc00003"; --bgtz
 wait for 1 ns;
 stall_tb <= '1';
@@ -37,9 +40,6 @@ pc_in_tb <= X"00400020";
 instruction_tb <= X"10c00003"; -- beq
 
 wait for 1 ns;
-stall_tb <= '1';
-wait for 1 ns;
-
 
 
 end process;

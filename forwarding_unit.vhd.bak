@@ -86,19 +86,24 @@ begin
 	mem13: and_gate port map(m11, int18, m13);
 	mem14: and_gate port map(m12, m13, m14); -- m14 is 1 if ForwardB should be 01
 
+	
 	muxA1: mux_n generic map(n => 2)
-		port map(e2, "00", "10", temp1);
-	muxA2: mux_n generic map(n => 2)
 		port map(m7, temp1, "01", forwardA);
+
+	muxA2: mux_n generic map(n => 2)
+		port map(e2, "00", "10", temp1);
+
+	
 	muxB1: mux_n generic map(n => 2)
-		port map(e3, "00", "10", temp2);
-	muxB2: mux_n generic map(n => 2)
 		port map(m14, temp2, "01", forwardB);
 
+	muxB2: mux_n generic map(n => 2)
+		port map(e3, "00", "10", temp2);
+
 	--muxO1: mux_n generic map(n => 2)
---	port map(int1, "00", temp12, forwardA);
---	muxO2: mux_n generic map(n => 2)
---		port map(int10, "00", temp22, forwardB);
+	--port map(int1, "00", temp12, forwardA);
+	--muxO2: mux_n generic map(n => 2)
+		--port map(int10, "00", temp22, forwardB);
 
 
 end structure;

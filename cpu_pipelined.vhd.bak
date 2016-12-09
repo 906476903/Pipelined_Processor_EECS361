@@ -200,6 +200,15 @@ component mux_2 is
   );
 end component;
 
+component mux_5 is
+  port (
+	sel   : in  std_logic;
+	src0  : in  std_logic_vector(4 downto 0);
+	src1  : in  std_logic_vector(4 downto 0);
+	z	    : out std_logic_vector(4 downto 0)
+  );
+end component mux_5;
+
 
 -------- IFetch Stage Signals ------------------------------------
 signal clk_not : std_logic;
@@ -224,9 +233,9 @@ signal ID_ALUop, EX_ALUop, ALUop_temp: std_logic_vector(5 downto 0);
 signal EX_control : std_logic_vector (7 downto 0);
 signal EX_busB, ID_busB : std_logic_vector(31 downto 0);
 signal carryout, overflow, zero : std_logic;
-signal  ID_busA, ID_busA_NAL, EX_busA, instrExt, aluB : std_logic_vector (31 downto 0);
+signal  ID_busA, EX_busA, instrExt, aluB : std_logic_vector (31 downto 0);
 signal  MEM_busW : std_logic_vector (31 downto 0);
-signal EX_ALUresult, MEM_ALUresult : std_logic_vector (31 downto 0);
+signal EX_ALUresult, address : std_logic_vector (31 downto 0);
 signal EX_instruction : std_logic_vector (31 downto 0);
 
 ------------------------ Mem Stage SIGNALS -------------------------------------
@@ -250,6 +259,9 @@ signal stall : std_logic;
 signal mx1, mx2, mx3, mx4, mx5, imm32, FW_MEM_instruction, FW_WB_instruction : std_logic_vector (31 downto 0);
 
 signal forwardA_temp, forwardB_temp : std_logic_vector (1 downto 0);
+signal MEM_I, WB_I : std_logic;
+signal fw_MEM_rd, fw_WB_rd : std_logic_vector (4 downto 0);
+signal imm_sel : std_logic;
 
 begin
 
@@ -299,7 +311,7 @@ begin
 
 	STALLER: stall_unit port map(ID_instruction, ID_control, stall, pc_stall);
 
-	NextAddress: NAL_pipelined port map(IF_pc, ID_instruction, ID_busA, ID_busB, pc_next_temp, pc_trigger,stall); -- next address logic
+	NextAddress: NAL_pipelined port map(IF_pc, ID_instruction, ID_busA, ID_busB, pc_next_temp, pc_trigger, stall); -- next address logic
 
 	
 
@@ -308,8 +320,14 @@ begin
 	R1: Reg_ID_EX port map(clk_not, shamt_in, imm16_in, ID_control, ID_ALUop, shamt_out, 
         imm16_out, EX_control, EX_ALUop, ID_busA, ID_busB, EX_busA, EX_busB, ID_instruction, EX_instruction);
 
+	MEM_I <= FW_MEM_instruction(29);
+	WB_I <= FW_WB_instruction(29);
+
+	MEM_RD_I: mux_5 port map(MEM_I, FW_MEM_instruction(15 downto 11), FW_MEM_instruction(20 downto 16), fw_MEM_rd);
+	WB_RD_I: mux_5 port map(MEM_I, FW_WB_instruction(15 downto 11), FW_WB_instruction(20 downto 16), fw_WB_rd);
+
 	 
-	FORWARD: forwarding_unit port map(EX_instruction(25 downto 21), EX_instruction(20 downto 16), FW_MEM_instruction(15 downto 11), FW_WB_instruction(15 downto 11),
+	FORWARD: forwarding_unit port map(EX_instruction(25 downto 21), EX_instruction(20 downto 16), fw_MEM_rd, fw_WB_rd,
 	 EX_control(4), MEM_control(4), forwardA_temp, forwardB_temp);
 
 	forwardAMUX: mux_2 port map (pc_forward, forwardA_temp, "00", forwardA); 
@@ -320,21 +338,23 @@ begin
 
 ---------------- FORWARDING --------------------------
 forwardMux1: mux_n generic map(n => 32)
-		port map(forwardA(1), EX_busA, WB_ALUresult, mx1); -- This mux 
+		port map(forwardA(1), EX_busA, address, mx1); -- This mux 
 
 	forwardMux2: mux_n generic map(n => 32)
-		port map(forwardA(0), mx1, MEM_ALUresult, mx2); -- ALU A input, select between this and the current 
+		port map(forwardA(0), mx1, WB_ALUresult, mx2); -- ALU A input, select between this and the current 
 
 	forwardMux3: mux_n generic map(n => 32)
-		port map(forwardB(1), aluB, MEM_ALUresult, mx3);
+		port map(forwardB(1), aluB, address, mx3);
 
 	forwardMux4: mux_n generic map(n => 32)
 		port map(forwardB(0), mx3, WB_ALUresult, mx4); -- 
 
 	extend: extender port map(imm16_out, '0', imm32);
 
+ SEL_OR : or_gate port map(EX_instruction(31), EX_control(2), imm_sel);
+
 	forwardMux5: mux_n generic map(n => 32)
-		port map(EX_instruction(31), mx4, imm32, mx5); -- ALU B from immediate or Register
+		port map(imm_sel, mx4, imm32, mx5); -- ALU B from immediate or Register
 
 
 -------------------- BACKWARDSING--------------------------------------------------------
@@ -351,7 +371,7 @@ forwardMux1: mux_n generic map(n => 32)
 
 
 -- END OF EX PHASE -- 
-	R2 : Reg_EX_MEM port map (clk_not, EX_busB, EX_ALUresult, EX_control, MEM_busB, MEM_ALUresult, 
+	R2 : Reg_EX_MEM port map (clk_not, EX_busB, EX_ALUresult, EX_control, MEM_busB, address, 
 	MEM_control, EX_instruction, MEM_instruction);
 
 
@@ -359,11 +379,11 @@ forwardMux1: mux_n generic map(n => 32)
 	NOT_WE_GENERATE : not_gate port map(MEM_control(3), not_WE); -- make WE and OE opposites
 	DMEM: syncram
 		generic map (data_file)
-		port map( clk, '1', not_WE, MEM_control(3), MEM_ALUresult, MEM_busB, MEM_dout);  -- data memory, control is MemWrite
+		port map( clk, '1', not_WE, MEM_control(3), address, MEM_busB, MEM_dout);  -- data memory, control is MemWrite
 
 -- END OF MEM PHASE 
 
-	R3: Reg_MEM_WB port map (clk_not, MEM_dout, MEM_ALUresult, MEM_control, MEM_busW, WB_ALUresult, 
+	R3: Reg_MEM_WB port map (clk_not, MEM_dout, address, MEM_control, MEM_busW, WB_ALUresult, 
         WB_control, MEM_instruction, WB_instruction);
 
 	INIT_MEM_INSTR : mux_32 port map(pc_mem_stall, MEM_instruction, X"00000000", FW_MEM_instruction);
@@ -371,7 +391,7 @@ forwardMux1: mux_n generic map(n => 32)
 -- START OF WB PHASE --
 
 
-	MUX3: mux_32 port map (WB_control(5), WB_ALUresult, MEM_busW, WB_busW);  -- select ALU_out or Mem_out, control is MemReg
+	MUX3: mux_32 port map (EX_control(5), WB_ALUresult, MEM_busW, WB_busW);  -- select ALU_out or Mem_out, control is MemReg
 	INIT_WB_INSTR : mux_32 port map(pc_mem_stall, WB_instruction, X"00000000", FW_WB_instruction);
 
 end structure;
