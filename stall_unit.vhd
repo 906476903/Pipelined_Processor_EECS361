@@ -1,0 +1,96 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity stall_unit is 
+port (instruction : in std_logic_vector(31 downto 0);
+control: in std_logic_vector(7 downto 0);
+stall : out std_logic;
+pc_init : in std_logic);
+end entity;
+
+
+architecture struct of stall_unit is
+
+
+component alu_32 is 
+	port (a : in std_logic_vector(31 downto 0);
+		b : in std_logic_vector(31 downto 0);
+		op : in std_logic_vector(5 downto 0);
+		shamt : in std_logic_vector (4 downto 0);
+		result : out std_logic_vector(31 downto 0);
+		carryout : out std_logic;
+		overflow : out std_logic;
+		zero : out std_logic
+		);
+end component alu_32;
+
+component mux_32 is
+  port (
+	sel   : in  std_logic;
+	src0  : in  std_logic_vector(31 downto 0);
+	src1  : in  std_logic_vector(31 downto 0);
+	z	    : out std_logic_vector(31 downto 0)
+  );
+end component;
+
+component mux_8 is
+  port (
+	sel   : in  std_logic;
+	src0  : in  std_logic_vector(7 downto 0);
+	src1  : in  std_logic_vector(7 downto 0);
+	z	    : out std_logic_vector(7 downto 0)
+  );
+end component;
+
+component mux is 
+port (sel,src0,src1 : in std_logic;
+z : out std_logic);
+end component;
+
+component nor_gate_32_1 is
+port(
+x: in std_logic_vector (31 downto 0); 
+z: out std_logic);
+end component;
+
+component not_gate is 
+port(x : in std_logic;
+z : out std_logic);
+end component;
+
+component or_gate is
+port (x,y : in std_logic;
+z : out std_logic);
+end component;
+
+
+signal sel : std_logic_vector (1 downto 0);
+signal stall_sel, stall_temp : std_logic;
+signal zero_check : std_logic_vector (31 downto 0);
+signal r_type : std_logic;
+signal op_in, op_last : std_logic_vector(5 downto 0);
+
+begin
+
+sel(1) <= instruction(31);
+--sel(0) <= instruction(28);
+sel(0) <= '0';
+op_in <= instruction(31 downto 26);
+OR0: or_gate port map (sel(1), sel(0), stall_sel);
+
+mux0: mux port map(stall_sel, '0', '1', stall_temp);
+mux1: mux port map(pc_init, stall_temp, '0', stall);
+
+--zero_check(31 downto 6) <= "00000000000000000000000000";
+--zero_check(5 downto 0) <= op_in;
+--RTYPE : nor_gate_32_1 port map(zero_check, r_type);
+
+
+--ALU: alu_32(instruction, instruction_last, "100010", "XXXXX", 
+--XOR1: xor_gate port map (stall_sel0, r_type, stall_sel1);
+
+
+--MUX0: mux port map(stall_sel1, '0', '1', stall);
+
+end struct;
